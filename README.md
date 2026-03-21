@@ -1,16 +1,61 @@
-## Hi there 👋
+# 👋 Hi, I'm Mayur Kiran Kumar S
 
-<!--
-**MayurKk777/MayurKk777** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 Computer Science (Cybersecurity) Student @ RV College of Engineering
+💻 Backend & Security-Focused Developer | 🚀 Building Real-Time Systems
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+## 🚀 About Me
+
+* 🎯 Passionate about **Cybersecurity, Backend Systems & Real-Time Monitoring**
+* 🧠 Strong foundation in **Data Structures, OS, and Computer Networks**
+* 🔐 Interested in **Security Automation, Threat Detection & Secure Systems**
+* ⚡ Building scalable systems with **APIs, ML, and cloud tools**
+
+---
+
+## 🛠️ Tech Stack
+
+### 💻 Languages
+
+* Python | C | C++ | Bash
+
+### 🔐 Cybersecurity
+
+* Wireshark | Nmap | Metasploit | Burp Suite
+* Vulnerability Assessment | OSINT | Network Scanning
+* Secure Coding | JWT Authentication
+
+### ⚙️ Frameworks & Tools
+
+* Fastapi | Django | Flask
+* Docker | Kubernetes | Git | Linux
+* Postman | CI/CD (GitHub Actions)
+
+### 🗄️ Databases
+
+* MySQL | PostreSQL | MongoDB
+
+---
+
+## 📜 Certifications
+
+* 🛡️ Texial Information Security Auditor (TISA) – 2025
+* 📊 Data Science for Engineers – NPTEL (2024)
+
+---
+
+## 📫 Connect With Me
+
+* 💼 LinkedIn: https://www.linkedin.com/in/mayur-kiran-kumar-s-730858389/
+* 📧 Email: [mayurkirankumar@gmail.com](mailto:mayurkirankumar@gmail.com)
+
+---
+
+## ⚡ Fun Fact
+
+I enjoy building **real-world security systems** that simulate actual SOC environments.
+
+---
+
+⭐ *Focused on becoming a high-impact Software Engineer with strong security expertise*
