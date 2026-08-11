@@ -70,12 +70,3 @@
 
 **R V College of Engineering**  
 *B.E. in Computer Science (Cybersecurity)* (Sept 2023 – Sept 2027)
-
-<br>
-
-## 📈 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayurKk777&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
