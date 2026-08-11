@@ -52,8 +52,7 @@
 | :--- | :--- | :--- |
 | 🛡️ **[RakshaSetu](https://github.com/MayurKk777)** | **Agentic Multi-Agent Disaster Response System:** 7-agent LangGraph pipeline automating end-to-end disaster response. Local LLM inference & offline UDP broadcast layer for emergencies without internet. | `LangGraph`, `FastAPI`, `YOLO`, `ChromaDB`, `Ollama` |
 | 🌱 **[CarbonTrust](https://github.com/MayurKk777)** | **Blockchain-Based Carbon Credit Verification:** IoT-to-blockchain pipeline for CO2/temp telemetry. Smart contracts deployed on Polygon Amoy enabling tamper-evident verification. | `IoT`, `MQTT`, `Solidity`, `Polygon` |
-| 🚛 **[AI Fleet Management](https://github.com/MayurKk777)** | **Predictive Maintenance Platform:** Trained an XGBoost failure-prediction model (85.7% accuracy) on vehicle telemetry. Engineered SHAP-based failure explanations and RUL scoring. | `XGBoost`, `FastAPI`, `PostgreSQL`, `SHAP` |
-| 🏥 **[Patient-Care-System](https://github.com/MayurKk777/Patient-Care-System)** | **Patient Care Management:** A scalable application developed using TypeScript to efficiently manage patient healthcare details. | `TypeScript` |
+| 🚛 **[AI Fleet Management](https://github.com/Harshavardhann1024/Automotive-Predictive-Maintenance-System)** | **Predictive Maintenance Platform:** Trained an XGBoost failure-prediction model (85.7% accuracy) on vehicle telemetry. Engineered SHAP-based failure explanations and RUL scoring. | `XGBoost`, `FastAPI`, `PostgreSQL`, `SHAP` |
 
 <br>
 
