@@ -53,6 +53,7 @@
 | 🛡️ **[RakshaSetu](https://github.com/MayurKk777)** | **Agentic Multi-Agent Disaster Response System:** 7-agent LangGraph pipeline automating end-to-end disaster response. Local LLM inference & offline UDP broadcast layer for emergencies without internet. | `LangGraph`, `FastAPI`, `YOLO`, `ChromaDB`, `Ollama` |
 | 🌱 **[CarbonTrust](https://github.com/MayurKk777)** | **Blockchain-Based Carbon Credit Verification:** IoT-to-blockchain pipeline for CO2/temp telemetry. Smart contracts deployed on Polygon Amoy enabling tamper-evident verification. | `IoT`, `MQTT`, `Solidity`, `Polygon` |
 | 🚛 **[AI Fleet Management](https://github.com/MayurKk777)** | **Predictive Maintenance Platform:** Trained an XGBoost failure-prediction model (85.7% accuracy) on vehicle telemetry. Engineered SHAP-based failure explanations and RUL scoring. | `XGBoost`, `FastAPI`, `PostgreSQL`, `SHAP` |
+| 🏥 **[Patient-Care-System](https://github.com/MayurKk777/Patient-Care-System)** | **Patient Care Management:** A scalable application developed using TypeScript to efficiently manage patient healthcare details. | `TypeScript` |
 
 <br>
 
@@ -69,12 +70,3 @@
 
 **R V College of Engineering**  
 *B.E. in Computer Science (Cybersecurity)* (Sept 2023 – Sept 2027)
-
-<br>
-
-## 📈 GitHub Analytics
-
-<div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayurKk777&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
-</div>
