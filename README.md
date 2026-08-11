@@ -1,9 +1,11 @@
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=timeGradient&height=250&section=header&text=Hi,%20I'm%20Mayur%20Kiran%20Kumar%20S&fontSize=50&fontAlignY=35&desc=Backend%20%26%20Security%20Engineer%20%7C%20Cybersecurity%20Student&descAlignY=55&descSize=20" alt="Header" />
+  <a href="https://git.io/typing-svg">
+    <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&size=32&pause=1000&color=007EC6&center=true&vCenter=true&width=800&lines=Hi,+I'm+Mayur+Kiran+Kumar+S+👋;Backend+%26+Security+Engineer;Cybersecurity+Student;Building+Scalable+%26+Secure+Systems" alt="Typing SVG" />
+  </a>
 </div>
 
 <p align="center">
-  I'm a Computer Science (Cybersecurity) student at R V College of Engineering, currently working as a Backend & Security Engineer. I specialize in building secure, scalable backend systems, developing agentic AI solutions, and performing robust security assessments.
+  I'm a Computer Science (Cybersecurity) student at <b>R V College of Engineering</b>, currently working as a <b>Backend & Security Engineer</b>. I specialize in building secure, scalable backend systems, developing agentic AI solutions, and performing robust security assessments.
 </p>
 
 <p align="center">
@@ -13,9 +15,26 @@
   <a href="mailto:mayurkirankumar@gmail.com">
     <img src="https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
+  <a href="https://github.com/MayurKk777">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+  </a>
 </p>
 
----
+<br>
+
+## 🛠️ Tech Stack & Skills
+
+<p align="center">
+  <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=py,c,cpp,bash,fastapi,postgres,supabase,docker,linux,git,mongodb,githubactions&theme=dark" alt="Skills" />
+  </a>
+</p>
+
+- **Backend & Systems:** FastAPI, REST APIs, WebSockets, PostgreSQL, SQLAlchemy, Supabase, JWT Authentication
+- **Cybersecurity:** Network Scanning, Vulnerability Assessment, Nmap, Wireshark, Metasploit, Burp Suite, SQLMap
+- **Data & Machine Learning:** NumPy, XGBoost, SHAP, Predictive Modeling, Time-Series Analysis, RUL Estimation
+
+<br>
 
 ## 💼 Experience
 
@@ -25,45 +44,17 @@
 - Implemented JWT-based security, password hashing, authorization controls, rate limiting, and secure API access patterns.
 - Performed API, integration, functional, and security testing; containerized and deployed backend services using Docker.
 
----
+<br>
 
 ## 🚀 Featured Projects
 
-### 🛡️ [RakshaSetu – Agentic Multi-Agent Disaster Response System](https://github.com/MayurKk777)
-- **Tech Stack:** LangGraph, FastAPI, WebSockets, YOLO, ChromaDB (RAG), Ollama, UDP
-- Architected a 7-agent LangGraph pipeline automating end-to-end disaster response via FastAPI/WebSockets.
-- Trained a YOLO vision pipeline on merged aerial datasets for damage detection with RAG for historical context.
-- Deployed local LLM inference and an offline UDP broadcast layer for LAN-based emergency alerts without internet dependency.
+| Project | Description | Tech Stack |
+| :--- | :--- | :--- |
+| 🛡️ **[RakshaSetu](https://github.com/MayurKk777)** | **Agentic Multi-Agent Disaster Response System:** 7-agent LangGraph pipeline automating end-to-end disaster response. Local LLM inference & offline UDP broadcast layer for emergencies without internet. | `LangGraph`, `FastAPI`, `YOLO`, `ChromaDB`, `Ollama` |
+| 🌱 **[CarbonTrust](https://github.com/MayurKk777)** | **Blockchain-Based Carbon Credit Verification:** IoT-to-blockchain pipeline for CO2/temp telemetry. Smart contracts deployed on Polygon Amoy enabling tamper-evident verification. | `IoT`, `MQTT`, `Solidity`, `Polygon` |
+| 🚛 **[AI Fleet Management](https://github.com/MayurKk777)** | **Predictive Maintenance Platform:** Trained an XGBoost failure-prediction model (85.7% accuracy) on vehicle telemetry. Engineered SHAP-based failure explanations and RUL scoring. | `XGBoost`, `FastAPI`, `PostgreSQL`, `SHAP` |
 
-### 🌱 [CarbonTrust – Blockchain-Based Carbon Credit Verification System](https://github.com/MayurKk777)
-- **Tech Stack:** IoT, MQTT, Python, Solidity, Polygon Amoy, IPFS
-- Engineered an IoT-to-blockchain pipeline ingesting telemetry from ESP32 sensors over TLS-secured MQTT.
-- Implemented Z-score anomaly detection and trapezoidal integration for quality-adjusted emission-reduction accounting.
-- Deployed a Solidity-based registry on Polygon Amoy with SHA-256 report hashes enabling tamper-evident verification.
-
-### 🚛 [AI-Driven Fleet Management & Predictive Maintenance Platform](https://github.com/MayurKk777)
-- **Tech Stack:** XGBoost, FastAPI, PostgreSQL, SQLAlchemy, SHAP, ReportLab
-- Trained an XGBoost failure-prediction model on vehicle telemetry achieving 85.7% accuracy.
-- Architected an async FastAPI agent pipeline with database integration and automated service scheduling.
-- Engineered SHAP-based failure explanations, RUL scoring, and automated executive reports for maintenance analytics.
-
----
-
-## 🛠️ Skills & Technologies
-
-**Languages:**  
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white) ![C](https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white)
-
-**Backend & Systems:**  
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=flat&logo=postgresql&logoColor=white) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=flat&logo=supabase&logoColor=white) ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=flat&logo=linux&logoColor=black)
-
-**Cybersecurity:**  
-`Network Scanning` `Vulnerability Assessment` `Nmap` `Wireshark` `Metasploit` `Burp Suite` `SQLMap` `JWT Security`
-
-**Data & Machine Learning:**  
-`NumPy` `XGBoost` `SHAP` `Predictive Modeling` `Time-Series Analysis` `RUL Estimation`
-
----
+<br>
 
 ## 🏆 Achievements & Certifications
 
@@ -72,16 +63,18 @@
 - 🔐 **Texial Information Security Auditor (TISA)** - Texial (2025)
 - 📊 **Data Science for Engineers** - NPTEL (2024)
 
----
+<br>
 
 ## 🎓 Education
 
 **R V College of Engineering**  
 *B.E. in Computer Science (Cybersecurity)* (Sept 2023 – Sept 2027)
 
----
+<br>
+
+## 📈 GitHub Analytics
 
 <div align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&theme=radical&hide_border=true" alt="Mayur's GitHub Stats" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayurKk777&theme=radical&hide_border=true" alt="Mayur's GitHub Streak" />
+  <img src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&theme=tokyonight&hide_border=true&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=MayurKk777&theme=tokyonight&hide_border=true" alt="GitHub Streak" />
 </div>
