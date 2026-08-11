@@ -53,6 +53,7 @@
 | 🛡️ **[RakshaSetu](https://github.com/MayurKk777)** | **Agentic Multi-Agent Disaster Response System:** 7-agent LangGraph pipeline automating end-to-end disaster response. Local LLM inference & offline UDP broadcast layer for emergencies without internet. | `LangGraph`, `FastAPI`, `YOLO`, `ChromaDB`, `Ollama` |
 | 🌱 **[CarbonTrust](https://github.com/MayurKk777)** | **Blockchain-Based Carbon Credit Verification:** IoT-to-blockchain pipeline for CO2/temp telemetry. Smart contracts deployed on Polygon Amoy enabling tamper-evident verification. | `IoT`, `MQTT`, `Solidity`, `Polygon` |
 | 🚛 **[AI Fleet Management](https://github.com/MayurKk777)** | **Predictive Maintenance Platform:** Trained an XGBoost failure-prediction model (85.7% accuracy) on vehicle telemetry. Engineered SHAP-based failure explanations and RUL scoring. | `XGBoost`, `FastAPI`, `PostgreSQL`, `SHAP` |
+| 🔐 **[CipherGuard](https://github.com/MayurKk777/CipherGuard)** | **Security & Encryption Tool:** A robust application focused on data security, encryption, and secure communications. | `Python`, `Cryptography` |
 
 <br>
 
