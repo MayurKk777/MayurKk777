@@ -39,7 +39,7 @@
 ## 💼 Experience
 
 **Backend Engineer | Security Engineer | QA & Security Testing**  
-*Raashi Cognitive Technologies Private Limited* (Aug 2026 – Present)
+*Raashi Cognitive Technologies Private Limited* (Aug 2026 – Oct 2026)
 - Engineered FastAPI REST APIs with authentication, RBAC, database integration, validation, and asynchronous backend services.
 - Implemented JWT-based security, password hashing, authorization controls, rate limiting, and secure API access patterns.
 - Performed API, integration, functional, and security testing; containerized and deployed backend services using Docker.
