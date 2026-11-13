@@ -3,10 +3,10 @@
   Drop this file into the root of the MayurKk777/MayurKk777 repository.
 -->
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,50:1D4ED8,100:38BDF8&text=Mayur%20Kiran%20Kumar%20S&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Security%20engineering%20%E2%9C%95%20backend%20systems%20%E2%9C%95%20applied%20AI&descAlignY=57&descSize=17&animation=fadeIn" alt="Mayur Kiran Kumar S - Security engineering, backend systems, applied AI" />
+<img width="100%" src="./assets/cyber-fusion-banner.svg" alt="Mayur Kiran Kumar S - Cybersecurity, backend systems, and applied AI" />
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=93C5FD&center=true&vCenter=true&width=680&lines=Designing+systems+that+remain+reliable+under+pressure;Secure+by+design.+Useful+by+default." alt="Animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=93C5FD&center=true&vCenter=true&width=680&lines=Security+is+a+feature%2C+not+an+afterthought.;Designing+systems+that+remain+reliable+under+pressure.;From+secure+APIs+to+agentic+response+systems." alt="Animated introduction" />
 
   <br />
   <br />
@@ -33,7 +33,7 @@
   <img src="https://img.shields.io/badge/Open%20to%20meaningful%20collaboration-0F172A?style=flat-square&logo=handshake&logoColor=60A5FA" alt="Open to meaningful collaboration" />
 </div>
 
-## `~/about`
+## // 01 - SYSTEMS PROFILE
 
 ```yaml
 name: Mayur Kiran Kumar S
@@ -46,24 +46,28 @@ focus:
   - Security engineering and offensive-security research
 ```
 
-I enjoy turning high-stakes problems into dependable systems - from secure authentication and abuse protection to offline-capable disaster response. I care about the details that make software trustworthy: clear architecture, measured trade-offs, and security built in from the first endpoint.
+I build dependable systems for high-stakes problems - from secure authentication and abuse protection to offline-capable disaster response. My north star: software should be secure by design, observable in production, and useful when conditions are imperfect.
 
-## ⟡ Building at the intersection of security and intelligence
+## // 02 - THREE-PILLAR STACK
 
 <table>
   <tr>
     <td width="50%" valign="top">
-      <h3>🛡️ Secure by design</h3>
+      <h3>🛡️ Security engineering</h3>
       <p>JWT authentication, role-based access control, password security, bot detection, and defensive middleware for production-facing services.</p>
     </td>
     <td width="50%" valign="top">
-      <h3>🧠 AI with a purpose</h3>
+      <h3>🧠 Applied AI</h3>
       <p>Multi-agent workflows, local LLM inference, RAG, and computer vision systems designed to remain useful when connectivity is unreliable.</p>
     </td>
   </tr>
 </table>
 
-## ⟡ Selected work
+<div align="center">
+  <sub><code>[ DEFEND ]</code> &nbsp; → &nbsp; <code>[ BUILD ]</code> &nbsp; → &nbsp; <code>[ AUTOMATE ]</code></sub>
+</div>
+
+## // 03 - FEATURED DEPLOYMENTS
 
 <table>
   <tr>
@@ -102,7 +106,7 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
   </tr>
 </table>
 
-## ⟡ Toolkit
+## // 04 - TECHNOLOGY MATRIX
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -114,16 +118,16 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
 
 <table>
   <tr>
-    <td><strong>Backend & systems</strong></td>
-    <td>FastAPI, REST APIs, SQLAlchemy, database design, JWT authentication</td>
+    <td><strong>01 / Backend</strong></td>
+    <td>FastAPI · REST APIs · SQLAlchemy · database design · JWT authentication</td>
   </tr>
   <tr>
-    <td><strong>Cybersecurity</strong></td>
-    <td>Kali Linux, Nmap, Wireshark, Metasploit, Burp Suite, SQLMap, penetration testing</td>
+    <td><strong>02 / Security</strong></td>
+    <td>Kali Linux · Nmap · Wireshark · Metasploit · Burp Suite · SQLMap · penetration testing</td>
   </tr>
   <tr>
-    <td><strong>Applied AI</strong></td>
-    <td>LangGraph, multi-agent systems, RAG, Ollama, YOLO</td>
+    <td><strong>03 / Intelligence</strong></td>
+    <td>LangGraph · multi-agent systems · RAG · Ollama · YOLO</td>
   </tr>
   <tr>
     <td><strong>Computer science</strong></td>
@@ -131,7 +135,7 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
   </tr>
 </table>
 
-## ⟡ Experience
+## // 05 - FIELD EXPERIENCE
 
 **Software Engineering Intern** · Raashi Cognitive Technologies Private Limited<br>
 `Aug 2026 - Oct 2026` · Bengaluru, India
@@ -140,7 +144,7 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
 - Implemented JWT authentication with token revocation, bcrypt password hashing, and account-lockout protections.
 - Built bot-detection and IP auto-blocking middleware against automated scraping and abusive traffic.
 
-## ⟡ Live signals
+## // 06 - LIVE TELEMETRY
 
 <div align="center">
   <a href="https://github.com/MayurKk777?tab=repositories">
@@ -159,7 +163,7 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayurKk777&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=FFFFFF&area=true&area_color=1D4ED8&hide_border=true" alt="Mayur's contribution graph" />
 </div>
 
-## ⟡ Recognition
+## // 07 - RECOGNITION
 
 - 🥈 **Runner-Up (2nd Place)** - Ignitrix Hackathon, KLE Technological University; 100+ participating teams (2026)
 - ✨ **Shortlisted for Round 2** - EY Techathon 6.0 (2026)
