@@ -3,8 +3,10 @@
   Drop this file into the root of the MayurKk777/MayurKk777 repository.
 -->
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&height=240&color=0:0F172A,50:1D4ED8,100:38BDF8&text=Mayur%20Kiran%20Kumar%20S&fontColor=F8FAFC&fontSize=42&fontAlignY=38&desc=Security%20engineering%20%E2%9C%95%20backend%20systems%20%E2%9C%95%20applied%20AI&descAlignY=57&descSize=17&animation=fadeIn" alt="Mayur Kiran Kumar S - Security engineering, backend systems, applied AI" />
+
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&duration=2800&pause=850&color=60A5FA&center=true&vCenter=true&width=780&lines=Mayur+Kiran+Kumar+S;Engineering+secure+systems+with+intelligence;Cybersecurity+%C3%97+Backend+%C3%97+Applied+AI" alt="Animated introduction" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=93C5FD&center=true&vCenter=true&width=680&lines=Designing+systems+that+remain+reliable+under+pressure;Secure+by+design.+Useful+by+default." alt="Animated introduction" />
 
   <br />
   <br />
@@ -21,14 +23,17 @@
   <img src="https://komarev.com/ghpvc/?username=MayurKk777&style=for-the-badge&color=2563EB&label=PROFILE+VIEWS" alt="Profile views" />
 </div>
 
-<br />
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,50:1D4ED8,100:38BDF8&height=3&section=header" width="78%" alt="" />
+</div>
 
 <div align="center">
   <img src="https://img.shields.io/badge/Bengaluru%2C%20India-0F172A?style=flat-square&logo=googlemaps&logoColor=60A5FA" alt="Bengaluru, India" />
-  <img src="https://img.shields.io/badge/Open%20to%20build%20meaningful%20systems-0F172A?style=flat-square&logo=rocket&logoColor=60A5FA" alt="Open to build meaningful systems" />
+  <img src="https://img.shields.io/badge/B.E.%20CSE%20%28Cybersecurity%29-0F172A?style=flat-square&logo=academia&logoColor=60A5FA" alt="B.E. CSE Cybersecurity" />
+  <img src="https://img.shields.io/badge/Open%20to%20meaningful%20collaboration-0F172A?style=flat-square&logo=handshake&logoColor=60A5FA" alt="Open to meaningful collaboration" />
 </div>
 
-## `whoami`
+## `~/about`
 
 ```yaml
 name: Mayur Kiran Kumar S
@@ -43,7 +48,7 @@ focus:
 
 I enjoy turning high-stakes problems into dependable systems - from secure authentication and abuse protection to offline-capable disaster response. I care about the details that make software trustworthy: clear architecture, measured trade-offs, and security built in from the first endpoint.
 
-## Building at the intersection of security and intelligence
+## ⟡ Building at the intersection of security and intelligence
 
 <table>
   <tr>
@@ -58,7 +63,7 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
   </tr>
 </table>
 
-## Selected work
+## ⟡ Selected work
 
 <table>
   <tr>
@@ -97,7 +102,7 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
   </tr>
 </table>
 
-## Toolkit
+## ⟡ Toolkit
 
 <div align="center">
   <a href="https://skillicons.dev">
@@ -126,7 +131,7 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
   </tr>
 </table>
 
-## Experience
+## ⟡ Experience
 
 **Software Engineering Intern** · Raashi Cognitive Technologies Private Limited<br>
 `Aug 2026 - Oct 2026` · Bengaluru, India
@@ -135,7 +140,7 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
 - Implemented JWT authentication with token revocation, bcrypt password hashing, and account-lockout protections.
 - Built bot-detection and IP auto-blocking middleware against automated scraping and abusive traffic.
 
-## Signals
+## ⟡ Live signals
 
 <div align="center">
   <a href="https://github.com/MayurKk777?tab=repositories">
@@ -150,7 +155,11 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
   <img src="https://streak-stats.demolab.com?user=MayurKk777&hide_border=true&background=0D1117&ring=60A5FA&fire=60A5FA&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="GitHub contribution streak" />
 </div>
 
-## Recognition
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayurKk777&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=FFFFFF&area=true&area_color=1D4ED8&hide_border=true" alt="Mayur's contribution graph" />
+</div>
+
+## ⟡ Recognition
 
 - 🥈 **Runner-Up (2nd Place)** - Ignitrix Hackathon, KLE Technological University; 100+ participating teams (2026)
 - ✨ **Shortlisted for Round 2** - EY Techathon 6.0 (2026)
@@ -161,3 +170,5 @@ I enjoy turning high-stakes problems into dependable systems - from secure authe
   <br />
   <a href="mailto:mayurkirankumar@gmail.com">Let’s build something that matters →</a>
 </div>
+
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:38BDF8&height=120&section=footer" alt="" />
