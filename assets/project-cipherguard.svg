@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" role="img" aria-label="CipherGuard Project">
+  <defs>
+    <linearGradient id="cg-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.35"/>
+      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="cg-glow">
+      <feGaussianBlur stdDeviation="2" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="cg-bg" cx="0.75" cy="0.4" r="0.6">
+      <stop offset="0%" stop-color="#0D1018"/>
+      <stop offset="100%" stop-color="#111722"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="200" rx="8" fill="url(#cg-bg)" stroke="url(#cg-border)" stroke-width="1"/>
+
+  <!-- Cryptographic shield visualization -->
+  <g transform="translate(620, 100)" opacity="0.4" filter="url(#cg-glow)">
+    <!-- Shield -->
+    <path d="M0-55 L45-35 L45 5 C45 35 22 55 0 65 C-22 55 -45 35 -45 5 L-45-35 Z" fill="none" stroke="#00E5FF" stroke-width="1.2"/>
+    <path d="M0-40 L32-25 L32 2 C32 24 16 38 0 46 C-16 38 -32 24 -32 2 L-32-25 Z" fill="none" stroke="#8B5CF6" stroke-width="0.8" opacity="0.5"/>
+    <!-- Lock keyhole -->
+    <circle cx="0" cy="-5" r="8" fill="none" stroke="#00E5FF" stroke-width="1" opacity="0.7"/>
+    <circle cx="0" cy="-5" r="3" fill="#00E5FF" opacity="0.5"/>
+    <rect x="-2" y="-2" width="4" height="10" rx="1" fill="#00E5FF" opacity="0.4"/>
+    <!-- Hash pattern dots -->
+    <g fill="#8B5CF6" opacity="0.3">
+      <circle cx="-55" cy="-40" r="1"/><circle cx="-50" cy="-30" r="1.2"/><circle cx="-60" cy="-20" r="0.8"/>
+      <circle cx="55" cy="-40" r="1"/><circle cx="50" cy="-30" r="1.2"/><circle cx="60" cy="-20" r="0.8"/>
+      <circle cx="-55" cy="20" r="1"/><circle cx="-50" cy="30" r="0.8"/>
+      <circle cx="55" cy="20" r="1"/><circle cx="50" cy="30" r="0.8"/>
+    </g>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="48" fill="#00E5FF" font-size="10" font-weight="700" letter-spacing="4" opacity="0.6">03 — PROJECT</text>
+    <text x="40" y="85" fill="#FFFFFF" font-size="28" font-weight="900" letter-spacing="3">CIPHERGUARD</text>
+    <text x="40" y="115" fill="#94A3B8" font-size="13" font-weight="400" letter-spacing="1">Password Security Analysis Framework</text>
+    <text x="40" y="155" fill="#CBD5E1" font-size="11" opacity="0.7">Python  ·  bcrypt  ·  Argon2id  ·  SSE  ·  Cracking Analysis</text>
+  </g>
+</svg>

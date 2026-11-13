@@ -1,186 +1,254 @@
 <!--
-  Profile README for github.com/MayurKk777
-  Drop this file into the root of the MayurKk777/MayurKk777 repository.
+  MAYUR KIRAN KUMAR S — GitHub Profile
+  Software Engineer · Cybersecurity · Applied AI
+  github.com/MayurKk777
 -->
 
-<img width="100%" src="./assets/cyber-fusion-banner.svg" alt="Mayur Kiran Kumar S - Cybersecurity, backend systems, and applied AI" />
+<img width="100%" src="./assets/hero-banner.svg" alt="Mayur Kiran Kumar S — Software Engineer, Cybersecurity, Applied AI" />
+
+<br />
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=600&size=19&duration=2800&pause=900&color=93C5FD&center=true&vCenter=true&width=680&lines=Security+is+a+feature%2C+not+an+afterthought.;Designing+systems+that+remain+reliable+under+pressure.;From+secure+APIs+to+agentic+response+systems." alt="Animated introduction" />
-
-  <br />
-  <br />
-
   <a href="https://www.linkedin.com/in/mayur-kiran-kumar-s-730858389/">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white" alt="LinkedIn" height="22" />
+  </a>&nbsp;&nbsp;
   <a href="mailto:mayurkirankumar@gmail.com">
-    <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email Mayur" />
-  </a>
+    <img src="https://img.shields.io/badge/Email-111722?style=flat-square&logo=gmail&logoColor=00E5FF" alt="Email" height="22" />
+  </a>&nbsp;&nbsp;
   <a href="https://github.com/MayurKk777">
-    <img src="https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-  </a>
-  <img src="https://komarev.com/ghpvc/?username=MayurKk777&style=for-the-badge&color=2563EB&label=PROFILE+VIEWS" alt="Profile views" />
-</div>
-
-<div align="center">
-  <img src="./assets/rgb-core-divider.svg" width="100%" alt="Cybersecurity, backend, and AI systems" />
-</div>
-
-<div align="center">
-  <img src="https://img.shields.io/badge/Bengaluru%2C%20India-0B0B10?style=flat-square&logo=googlemaps&logoColor=00F5FF" alt="Bengaluru, India" />
-  <img src="https://img.shields.io/badge/B.E.%20CSE%20%28Cybersecurity%29-0B0B10?style=flat-square&logo=academia&logoColor=FF00E5" alt="B.E. CSE Cybersecurity" />
-  <img src="https://img.shields.io/badge/Open%20to%20meaningful%20collaboration-0B0B10?style=flat-square&logo=handshake&logoColor=B6FF00" alt="Open to meaningful collaboration" />
-</div>
-
-## // 01 - SYSTEMS PROFILE
-
-```yaml
-name: Mayur Kiran Kumar S
-role: Computer Science (Cybersecurity) student | Software Engineering Intern
-location: Bengaluru, India
-education: B.E. Computer Science (Cybersecurity), R V College of Engineering
-focus:
-  - Secure backend systems
-  - Agentic AI for real-world response
-  - Security engineering and offensive-security research
-```
-
-I build dependable systems for high-stakes problems - from secure authentication and abuse protection to offline-capable disaster response. My north star: software should be secure by design, observable in production, and useful when conditions are imperfect.
-
-## // 02 - THREE-PILLAR STACK
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3>🛡️ Security engineering</h3>
-      <p>JWT authentication, role-based access control, password security, bot detection, and defensive middleware for production-facing services.</p>
-    </td>
-    <td width="50%" valign="top">
-      <h3>🧠 Applied AI</h3>
-      <p>Multi-agent workflows, local LLM inference, RAG, and computer vision systems designed to remain useful when connectivity is unreliable.</p>
-    </td>
-  </tr>
-</table>
-
-<div align="center">
-  <sub><code>[ DEFEND ]</code> &nbsp; → &nbsp; <code>[ BUILD ]</code> &nbsp; → &nbsp; <code>[ AUTOMATE ]</code></sub>
+    <img src="https://img.shields.io/badge/GitHub-111722?style=flat-square&logo=github&logoColor=white" alt="GitHub" height="22" />
+  </a>&nbsp;&nbsp;
+  <img src="https://komarev.com/ghpvc/?username=MayurKk777&style=flat-square&color=111722&label=VIEWS" alt="Profile views" height="22" />
 </div>
 
 <br />
 
-<img width="100%" src="./assets/rgb-core-divider.svg" alt="Security, backend, and AI pillars" />
-
-## // 03 - FEATURED DEPLOYMENTS
-
-<table>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/MayurKk777/Raksha-setu">🚨 RakshaSetu</a></h3>
-      <p><strong>Agentic multi-agent disaster-response system.</strong></p>
-      <p>Coordinates vision, triage, weather, zone analysis, resource allocation, notification, and supervision through a LangGraph workflow. Uses YOLO for damage detection, RAG for historical context, and a local UDP alert layer for connectivity outages.</p>
-      <img src="https://img.shields.io/badge/LangGraph-0F172A?style=flat-square&logo=langchain&logoColor=white" alt="LangGraph" />
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
-      <img src="https://img.shields.io/badge/YOLO-111827?style=flat-square&logo=opencv&logoColor=white" alt="YOLO" />
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/MayurKk777/CarbonTrust-Blockchain">🌿 CarbonTrust</a></h3>
-      <p><strong>Blockchain-based carbon-credit verification.</strong></p>
-      <p>Connects ESP32 telemetry to a tamper-evident verification trail using TLS-secured MQTT, anomaly detection, Solidity smart contracts on Polygon Amoy, report hashes, and IPFS CIDs.</p>
-      <img src="https://img.shields.io/badge/Solidity-363636?style=flat-square&logo=solidity&logoColor=white" alt="Solidity" />
-      <img src="https://img.shields.io/badge/ESP32-111827?style=flat-square&logo=esphome&logoColor=white" alt="ESP32" />
-      <img src="https://img.shields.io/badge/MQTT-660066?style=flat-square&logo=eclipsemosquitto&logoColor=white" alt="MQTT" />
-    </td>
-  </tr>
-  <tr>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/MayurKk777/Cipherguard">🔐 CipherGuard</a></h3>
-      <p><strong>Password storage and cracking-analysis framework.</strong></p>
-      <p>Compares seven storage strategies, including bcrypt and Argon2id, against dictionary, brute-force, rainbow-table, and hybrid attacks. A live SSE interface exposes cracking performance and a 0-100 security score.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/SSE-111827?style=flat-square&logo=serverfault&logoColor=white" alt="Server-Sent Events" />
-    </td>
-    <td width="50%" valign="top">
-      <h3><a href="https://github.com/MayurKk777/Automotive-Predictive-Maintenance-System">🚗 Automotive Predictive Maintenance</a></h3>
-      <p><strong>Predictive-maintenance system for vehicle telemetry.</strong></p>
-      <p>Explores failure prediction, explainable modeling, and remaining-useful-life scoring to make maintenance decisions more proactive and interpretable.</p>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-      <img src="https://img.shields.io/badge/Analytics-111827?style=flat-square&logo=chartdotjs&logoColor=white" alt="Analytics" />
-    </td>
-  </tr>
-</table>
-
-## // 04 - TECHNOLOGY MATRIX
-
-<div align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=python,fastapi,git,github,linux,solidity&theme=dark&perline=6" alt="Core tools: Python, FastAPI, Git, GitHub, Linux, Solidity" />
-  </a>
-</div>
+<img width="100%" src="./assets/section-divider.svg" alt="" />
 
 <br />
 
+## &nbsp;&nbsp;About
+
 <table>
-  <tr>
-    <td><strong>01 / Backend</strong></td>
-    <td>FastAPI · REST APIs · SQLAlchemy · database design · JWT authentication</td>
-  </tr>
-  <tr>
-    <td><strong>02 / Security</strong></td>
-    <td>Kali Linux · Nmap · Wireshark · Metasploit · Burp Suite · SQLMap · penetration testing</td>
-  </tr>
-  <tr>
-    <td><strong>03 / Intelligence</strong></td>
-    <td>LangGraph · multi-agent systems · RAG · Ollama · YOLO</td>
-  </tr>
-  <tr>
-    <td><strong>Computer science</strong></td>
-    <td>DSA, OOP, operating systems, DBMS, computer networks</td>
-  </tr>
+<tr>
+<td>
+
+I build dependable systems for high-stakes problems — from secure authentication and abuse protection to offline-capable disaster response.
+
+My work sits at the intersection of **security engineering**, **applied AI**, and **backend systems**. I care about software that is secure by design, observable in production, and useful when conditions are imperfect.
+
+Currently pursuing **B.E. Computer Science (Cybersecurity)** at **R V College of Engineering**, Bengaluru.
+
+</td>
+</tr>
 </table>
 
-## // 05 - FIELD EXPERIENCE
+<br />
 
-**Software Engineering Intern** · Raashi Cognitive Technologies Private Limited<br>
-`Aug 2026 - Oct 2026` · Bengaluru, India
-
-- Designed a production role-based access-control system for Admin and Coordinator permissions.
-- Implemented JWT authentication with token revocation, bcrypt password hashing, and account-lockout protections.
-- Built bot-detection and IP auto-blocking middleware against automated scraping and abusive traffic.
-
-## // 06 - LIVE TELEMETRY
-
-<img width="100%" src="./assets/rgb-terminal-strip.svg" alt="Live telemetry: online, threat model active, pipeline building" />
+<img width="100%" src="./assets/section-divider.svg" alt="" />
 
 <br />
+
+## &nbsp;&nbsp;Engineering Domains
+
+<table>
+<tr>
+<td width="33%" align="center" valign="top">
+<br />
+<img src="./assets/domain-security.svg" width="52" alt="Security" />
+<br /><br />
+<strong>01 — SECURITY ENGINEERING</strong>
+<br /><br />
+<sub>JWT authentication · RBAC · password security · bot detection · defensive middleware · penetration testing</sub>
+<br /><br />
+</td>
+<td width="33%" align="center" valign="top">
+<br />
+<img src="./assets/domain-ai.svg" width="52" alt="AI" />
+<br /><br />
+<strong>02 — APPLIED AI</strong>
+<br /><br />
+<sub>LangGraph · multi-agent systems · RAG · local LLM inference · computer vision</sub>
+<br /><br />
+</td>
+<td width="33%" align="center" valign="top">
+<br />
+<img src="./assets/domain-backend.svg" width="52" alt="Backend" />
+<br /><br />
+<strong>03 — BACKEND ENGINEERING</strong>
+<br /><br />
+<sub>FastAPI · REST APIs · SQLAlchemy · authentication architecture · database design</sub>
+<br /><br />
+</td>
+</tr>
+</table>
+
+<br />
+
+<img width="100%" src="./assets/section-divider.svg" alt="" />
+
+<br />
+
+## &nbsp;&nbsp;Featured Projects
+
+<a href="https://github.com/MayurKk777/Raksha-setu">
+  <img width="100%" src="./assets/project-rakshasetu.svg" alt="RakshaSetu — Multi-Agent Disaster Response System" />
+</a>
+
+<br />
+
+> Agentic multi-agent disaster-response system. Coordinates vision, triage, weather, zone analysis, resource allocation, notification, and supervision through a LangGraph workflow. Uses YOLO for damage detection, RAG for historical context, and a local UDP alert layer for connectivity outages.
+
+<br />
+
+<a href="https://github.com/MayurKk777/CarbonTrust-Blockchain">
+  <img width="100%" src="./assets/project-carbontrust.svg" alt="CarbonTrust — Blockchain Carbon-Credit Verification" />
+</a>
+
+<br />
+
+> Blockchain-based carbon-credit verification. Connects ESP32 telemetry to a tamper-evident verification trail using TLS-secured MQTT, anomaly detection, Solidity smart contracts on Polygon Amoy, report hashes, and IPFS CIDs.
+
+<br />
+
+<a href="https://github.com/MayurKk777/Cipherguard">
+  <img width="100%" src="./assets/project-cipherguard.svg" alt="CipherGuard — Password Security Analysis" />
+</a>
+
+<br />
+
+> Password storage and cracking-analysis framework. Compares seven storage strategies, including bcrypt and Argon2id, against dictionary, brute-force, rainbow-table, and hybrid attacks. A live SSE interface exposes cracking performance and a 0–100 security score.
+
+<br />
+
+<a href="https://github.com/MayurKk777/Automotive-Predictive-Maintenance-System">
+  <img width="100%" src="./assets/project-automotive.svg" alt="Predictive Maintenance — Automotive Telemetry" />
+</a>
+
+<br />
+
+> Predictive-maintenance system for vehicle telemetry. Explores failure prediction, explainable modeling, and remaining-useful-life scoring to make maintenance decisions more proactive and interpretable.
+
+<br />
+
+<img width="100%" src="./assets/section-divider.svg" alt="" />
+
+<br />
+
+## &nbsp;&nbsp;Technical Capabilities
+
+<table>
+<tr>
+<td><strong>&nbsp;&nbsp;Backend Engineering</strong></td>
+<td>Python &nbsp;·&nbsp; FastAPI &nbsp;·&nbsp; REST APIs &nbsp;·&nbsp; SQLAlchemy</td>
+</tr>
+<tr>
+<td><strong>&nbsp;&nbsp;Cybersecurity</strong></td>
+<td>Kali Linux &nbsp;·&nbsp; Nmap &nbsp;·&nbsp; Wireshark &nbsp;·&nbsp; Metasploit &nbsp;·&nbsp; Burp Suite &nbsp;·&nbsp; SQLMap</td>
+</tr>
+<tr>
+<td><strong>&nbsp;&nbsp;AI Engineering</strong></td>
+<td>LangGraph &nbsp;·&nbsp; Multi-Agent Systems &nbsp;·&nbsp; RAG &nbsp;·&nbsp; Ollama &nbsp;·&nbsp; YOLO</td>
+</tr>
+<tr>
+<td><strong>&nbsp;&nbsp;Core CS</strong></td>
+<td>DSA &nbsp;·&nbsp; OOP &nbsp;·&nbsp; Operating Systems &nbsp;·&nbsp; DBMS &nbsp;·&nbsp; Computer Networks</td>
+</tr>
+</table>
+
+<br />
+
+<img width="100%" src="./assets/section-divider.svg" alt="" />
+
+<br />
+
+## &nbsp;&nbsp;Professional Experience
+
+<table>
+<tr>
+<td width="4" valign="top"><img width="4" height="100" src="https://img.shields.io/badge/%20-00E5FF?style=flat-square" alt="" /></td>
+<td>
+<strong>Software Engineering Intern</strong><br />
+<sub>Raashi Cognitive Technologies Private Limited &nbsp;·&nbsp; Bengaluru, India</sub><br />
+<sub>August 2026 – October 2026</sub>
+<br /><br />
+<ul>
+<li>Designed production RBAC architecture for Admin and Coordinator permissions.</li>
+<li>Implemented JWT authentication with token revocation, bcrypt password hashing, and account-lockout protections.</li>
+<li>Built bot-detection and IP auto-blocking middleware against automated scraping and abusive traffic.</li>
+</ul>
+</td>
+</tr>
+</table>
+
+<br />
+
+<img width="100%" src="./assets/section-divider.svg" alt="" />
+
+<br />
+
+## &nbsp;&nbsp;GitHub Analytics
 
 <div align="center">
   <a href="https://github.com/MayurKk777?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&bg_color=08080C&title_color=FF00E5&icon_color=00F5FF&text_color=F8FAFC" alt="Mayur's GitHub statistics" />
-  </a>
+    <img height="170" src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=00E5FF&icon_color=8B5CF6&text_color=CBD5E1&ring_color=00E5FF" alt="GitHub statistics" />
+  </a>&nbsp;&nbsp;
   <a href="https://github.com/MayurKk777?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayurKk777&layout=compact&hide_border=true&bg_color=08080C&title_color=B6FF00&text_color=F8FAFC" alt="Mayur's top languages" />
+    <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayurKk777&layout=compact&hide_border=true&bg_color=0D1117&title_color=00E5FF&text_color=CBD5E1" alt="Top languages" />
   </a>
 </div>
 
+<br />
+
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=MayurKk777&hide_border=true&background=08080C&ring=00F5FF&fire=FF00E5&currStreakLabel=F8FAFC&sideLabels=F8FAFC&dates=94A3B8&sideNums=B6FF00&currStreakNum=FFFFFF" alt="GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=MayurKk777&hide_border=true&background=0D1117&ring=00E5FF&fire=8B5CF6&currStreakLabel=CBD5E1&sideLabels=CBD5E1&dates=94A3B8&sideNums=B8FF6B&currStreakNum=FFFFFF" alt="Contribution streak" />
 </div>
 
+<br />
+
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayurKk777&bg_color=08080C&color=F8FAFC&line=FF00E5&point=B6FF00&area=true&area_color=00F5FF&hide_border=true" alt="Mayur's contribution graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayurKk777&bg_color=0D1117&color=CBD5E1&line=8B5CF6&point=B8FF6B&area=true&area_color=00E5FF&hide_border=true" alt="Contribution graph" />
 </div>
 
-## // 07 - RECOGNITION
+<br />
 
-- 🥈 **Runner-Up (2nd Place)** - Ignitrix Hackathon, KLE Technological University; 100+ participating teams (2026)
-- ✨ **Shortlisted for Round 2** - EY Techathon 6.0 (2026)
+<img width="100%" src="./assets/section-divider.svg" alt="" />
+
+<br />
+
+## &nbsp;&nbsp;Recognition
+
+<table>
+<tr>
+<td width="60" align="center"><strong>II</strong></td>
+<td>
+<strong>Runner-Up (2nd Place)</strong> — Ignitrix Hackathon, KLE Technological University<br />
+<sub>100+ participating teams · 2026</sub>
+</td>
+</tr>
+<tr>
+<td width="60" align="center"><strong>R2</strong></td>
+<td>
+<strong>Shortlisted for Round 2</strong> — EY Techathon 6.0<br />
+<sub>2026</sub>
+</td>
+</tr>
+</table>
+
+<br />
+
+<img width="100%" src="./assets/section-divider.svg" alt="" />
+
+<br />
+
+<img width="100%" src="./assets/footer-signature.svg" alt="Build systems that keep working when the stakes are highest." />
 
 <div align="center">
-  <sub>“Build systems that keep working when the stakes are highest.”</sub>
   <br />
-  <br />
-  <a href="mailto:mayurkirankumar@gmail.com">Let’s build something that matters →</a>
+  <a href="mailto:mayurkirankumar@gmail.com">mayurkirankumar@gmail.com</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://www.linkedin.com/in/mayur-kiran-kumar-s-730858389/">LinkedIn</a>
+  &nbsp;&nbsp;·&nbsp;&nbsp;
+  <a href="https://github.com/MayurKk777">GitHub</a>
+  <br /><br />
 </div>
-
-<img width="100%" src="./assets/rgb-core-divider.svg" alt="" />

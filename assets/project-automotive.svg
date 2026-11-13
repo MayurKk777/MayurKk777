@@ -1,0 +1,43 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 200" role="img" aria-label="Automotive Predictive Maintenance Project">
+  <defs>
+    <linearGradient id="am-border" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#B8FF6B" stop-opacity="0.15"/>
+    </linearGradient>
+    <filter id="am-glow">
+      <feGaussianBlur stdDeviation="1.5" result="blur"/>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <radialGradient id="am-bg" cx="0.8" cy="0.3" r="0.7">
+      <stop offset="0%" stop-color="#10111E"/>
+      <stop offset="100%" stop-color="#111722"/>
+    </radialGradient>
+  </defs>
+  <rect width="800" height="200" rx="8" fill="url(#am-bg)" stroke="url(#am-border)" stroke-width="1"/>
+
+  <!-- Telemetry waveform visualization -->
+  <g transform="translate(480, 100)" opacity="0.45" filter="url(#am-glow)">
+    <!-- Signal waveform -->
+    <path d="M-40 0 L-30-20 L-20 15 L-10-25 L0 10 L10-30 L20 20 L30-15 L40 5 L50-20 L60 15 L70-10 L80 0 L90-25 L100 10 L110-18 L120 8 L130-22 L140 12 L150-8 L160 0" fill="none" stroke="#8B5CF6" stroke-width="1.2" opacity="0.7"/>
+    <!-- Secondary waveform -->
+    <path d="M-40 5 L-25 -8 L-10 12 L5 -5 L20 8 L35-12 L50 6 L65-8 L80 10 L95-5 L110 8 L125-10 L140 5 L155-6 L160 2" fill="none" stroke="#B8FF6B" stroke-width="0.8" opacity="0.4"/>
+    <!-- Data points -->
+    <circle cx="-10" cy="-25" r="2" fill="#8B5CF6" opacity="0.7"/>
+    <circle cx="10" cy="-30" r="2.5" fill="#8B5CF6" opacity="0.8"/>
+    <circle cx="50" cy="-20" r="2" fill="#8B5CF6" opacity="0.6"/>
+    <circle cx="90" cy="-25" r="2" fill="#8B5CF6" opacity="0.7"/>
+    <circle cx="130" cy="-22" r="2" fill="#8B5CF6" opacity="0.6"/>
+    <!-- Baseline -->
+    <line x1="-45" y1="35" x2="165" y2="35" stroke="#94A3B8" stroke-width="0.5" opacity="0.2"/>
+    <!-- Threshold line -->
+    <line x1="-45" y1="-35" x2="165" y2="-35" stroke="#B8FF6B" stroke-width="0.5" opacity="0.2" stroke-dasharray="4 4"/>
+    <text x="168" y="-32" fill="#B8FF6B" font-family="monospace" font-size="6" opacity="0.4">THRESHOLD</text>
+  </g>
+
+  <g font-family="Arial, Helvetica, sans-serif">
+    <text x="40" y="48" fill="#8B5CF6" font-size="10" font-weight="700" letter-spacing="4" opacity="0.6">04 — PROJECT</text>
+    <text x="40" y="85" fill="#FFFFFF" font-size="24" font-weight="900" letter-spacing="3">PREDICTIVE MAINTENANCE</text>
+    <text x="40" y="115" fill="#94A3B8" font-size="13" font-weight="400" letter-spacing="1">Automotive Telemetry Analysis</text>
+    <text x="40" y="155" fill="#CBD5E1" font-size="11" opacity="0.7">Python  ·  Failure Prediction  ·  XAI  ·  RUL Scoring</text>
+  </g>
+</svg>
