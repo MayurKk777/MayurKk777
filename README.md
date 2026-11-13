@@ -24,13 +24,13 @@
 </div>
 
 <div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:0F172A,50:1D4ED8,100:38BDF8&height=3&section=header" width="78%" alt="" />
+  <img src="./assets/rgb-core-divider.svg" width="100%" alt="Cybersecurity, backend, and AI systems" />
 </div>
 
 <div align="center">
-  <img src="https://img.shields.io/badge/Bengaluru%2C%20India-0F172A?style=flat-square&logo=googlemaps&logoColor=60A5FA" alt="Bengaluru, India" />
-  <img src="https://img.shields.io/badge/B.E.%20CSE%20%28Cybersecurity%29-0F172A?style=flat-square&logo=academia&logoColor=60A5FA" alt="B.E. CSE Cybersecurity" />
-  <img src="https://img.shields.io/badge/Open%20to%20meaningful%20collaboration-0F172A?style=flat-square&logo=handshake&logoColor=60A5FA" alt="Open to meaningful collaboration" />
+  <img src="https://img.shields.io/badge/Bengaluru%2C%20India-0B0B10?style=flat-square&logo=googlemaps&logoColor=00F5FF" alt="Bengaluru, India" />
+  <img src="https://img.shields.io/badge/B.E.%20CSE%20%28Cybersecurity%29-0B0B10?style=flat-square&logo=academia&logoColor=FF00E5" alt="B.E. CSE Cybersecurity" />
+  <img src="https://img.shields.io/badge/Open%20to%20meaningful%20collaboration-0B0B10?style=flat-square&logo=handshake&logoColor=B6FF00" alt="Open to meaningful collaboration" />
 </div>
 
 ## // 01 - SYSTEMS PROFILE
@@ -66,6 +66,10 @@ I build dependable systems for high-stakes problems - from secure authentication
 <div align="center">
   <sub><code>[ DEFEND ]</code> &nbsp; → &nbsp; <code>[ BUILD ]</code> &nbsp; → &nbsp; <code>[ AUTOMATE ]</code></sub>
 </div>
+
+<br />
+
+<img width="100%" src="./assets/rgb-core-divider.svg" alt="Security, backend, and AI pillars" />
 
 ## // 03 - FEATURED DEPLOYMENTS
 
@@ -146,21 +150,25 @@ I build dependable systems for high-stakes problems - from secure authentication
 
 ## // 06 - LIVE TELEMETRY
 
+<img width="100%" src="./assets/rgb-terminal-strip.svg" alt="Live telemetry: online, threat model active, pipeline building" />
+
+<br />
+
 <div align="center">
   <a href="https://github.com/MayurKk777?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&bg_color=0D1117&title_color=60A5FA&icon_color=60A5FA&text_color=C9D1D9" alt="Mayur's GitHub statistics" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&bg_color=08080C&title_color=FF00E5&icon_color=00F5FF&text_color=F8FAFC" alt="Mayur's GitHub statistics" />
   </a>
   <a href="https://github.com/MayurKk777?tab=repositories">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayurKk777&layout=compact&hide_border=true&bg_color=0D1117&title_color=60A5FA&text_color=C9D1D9" alt="Mayur's top languages" />
+    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayurKk777&layout=compact&hide_border=true&bg_color=08080C&title_color=B6FF00&text_color=F8FAFC" alt="Mayur's top languages" />
   </a>
 </div>
 
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=MayurKk777&hide_border=true&background=0D1117&ring=60A5FA&fire=60A5FA&currStreakLabel=C9D1D9&sideLabels=C9D1D9&dates=8B949E&sideNums=FFFFFF&currStreakNum=FFFFFF" alt="GitHub contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=MayurKk777&hide_border=true&background=08080C&ring=00F5FF&fire=FF00E5&currStreakLabel=F8FAFC&sideLabels=F8FAFC&dates=94A3B8&sideNums=B6FF00&currStreakNum=FFFFFF" alt="GitHub contribution streak" />
 </div>
 
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayurKk777&bg_color=0D1117&color=C9D1D9&line=38BDF8&point=FFFFFF&area=true&area_color=1D4ED8&hide_border=true" alt="Mayur's contribution graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayurKk777&bg_color=08080C&color=F8FAFC&line=FF00E5&point=B6FF00&area=true&area_color=00F5FF&hide_border=true" alt="Mayur's contribution graph" />
 </div>
 
 ## // 07 - RECOGNITION
@@ -175,4 +183,4 @@ I build dependable systems for high-stakes problems - from secure authentication
   <a href="mailto:mayurkirankumar@gmail.com">Let’s build something that matters →</a>
 </div>
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1D4ED8,100:38BDF8&height=120&section=footer" alt="" />
+<img width="100%" src="./assets/rgb-core-divider.svg" alt="" />
