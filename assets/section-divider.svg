@@ -1,12 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 4" role="img" aria-label="Section divider">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 12" role="img" aria-label="Section divider">
   <defs>
-    <linearGradient id="div-grad" x1="0" x2="1">
+    <linearGradient id="dg1" x1="0" x2="1">
       <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
-      <stop offset="15%" stop-color="#00E5FF" stop-opacity="0.6"/>
-      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.4"/>
-      <stop offset="85%" stop-color="#00E5FF" stop-opacity="0.15"/>
-      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="20%" stop-color="#00E5FF" stop-opacity="0.8"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.9"/>
+      <stop offset="80%" stop-color="#B8FF6B" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#B8FF6B" stop-opacity="0"/>
     </linearGradient>
+    <filter id="gd">
+      <feGaussianBlur stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
   </defs>
-  <rect width="1280" height="4" fill="url(#div-grad)"/>
+  <rect width="1280" height="12" fill="transparent"/>
+  <rect x="100" y="5" width="1080" height="2" fill="url(#dg1)" filter="url(#gd)" rx="1">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="4s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Animated traveling dot -->
+  <circle r="3" fill="#00E5FF" filter="url(#gd)">
+    <animate attributeName="cx" values="100;1180;100" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="6;6;6" dur="6s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;1;1;0" dur="6s" repeatCount="indefinite"/>
+  </circle>
 </svg>

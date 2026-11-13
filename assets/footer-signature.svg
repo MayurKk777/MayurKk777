@@ -1,15 +1,25 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 120" role="img" aria-label="Footer signature">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 140" role="img" aria-label="Footer">
   <defs>
-    <linearGradient id="ft-line" x1="0" x2="1">
+    <linearGradient id="fl" x1="0" x2="1">
       <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
-      <stop offset="30%" stop-color="#00E5FF" stop-opacity="0.3"/>
-      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.2"/>
-      <stop offset="70%" stop-color="#00E5FF" stop-opacity="0.3"/>
-      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
+      <stop offset="25%" stop-color="#00E5FF" stop-opacity="0.5"/>
+      <stop offset="50%" stop-color="#8B5CF6" stop-opacity="0.4"/>
+      <stop offset="75%" stop-color="#B8FF6B" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#B8FF6B" stop-opacity="0"/>
     </linearGradient>
+    <filter id="fg"><feGaussianBlur stdDeviation="2" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
   </defs>
-  <rect width="1280" height="120" fill="#080B12"/>
-  <rect x="240" y="40" width="800" height="1" fill="url(#ft-line)"/>
-  <text x="640" y="75" text-anchor="middle" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="14" font-weight="400" letter-spacing="1.5" opacity="0.8">"Build systems that keep working when the stakes are highest."</text>
-  <text x="640" y="100" text-anchor="middle" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="3" opacity="0.5">MAYUR KIRAN KUMAR S</text>
+  <rect width="1280" height="140" fill="#080B12"/>
+  <!-- Animated accent line -->
+  <rect x="200" y="35" width="880" height="2" fill="url(#fl)" filter="url(#fg)" rx="1">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="5s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Traveling dot -->
+  <circle r="4" fill="#00E5FF" filter="url(#fg)">
+    <animate attributeName="cx" values="200;1080;200" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="cy" values="36;36;36" dur="8s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0;0.8;0.8;0" dur="8s" repeatCount="indefinite"/>
+  </circle>
+  <text x="640" y="80" text-anchor="middle" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="16" font-weight="400" letter-spacing="2" opacity="0.9">"Build systems that keep working when the stakes are highest."</text>
+  <text x="640" y="115" text-anchor="middle" fill="#94A3B8" font-family="Arial, Helvetica, sans-serif" font-size="11" letter-spacing="4" opacity="0.4">MAYUR KIRAN KUMAR S  ·  BENGALURU  ·  2026</text>
 </svg>

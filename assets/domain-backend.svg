@@ -1,19 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Backend Engineering">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Backend Engineering">
   <defs>
-    <filter id="glow-b">
-      <feGaussianBlur stdDeviation="1.5" result="blur"/>
-      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <filter id="ng3">
+      <feGaussianBlur stdDeviation="3" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
+    <radialGradient id="bbg" cx="0.5" cy="0.5" r="0.5">
+      <stop offset="0%" stop-color="#0D1A10"/>
+      <stop offset="100%" stop-color="#111722"/>
+    </radialGradient>
   </defs>
-  <circle cx="32" cy="32" r="30" fill="#111722" stroke="#1E293B" stroke-width="1"/>
-  <g transform="translate(32,32)" filter="url(#glow-b)">
-    <!-- Server stack -->
-    <rect x="-12" y="-16" width="24" height="8" rx="2" fill="none" stroke="#B8FF6B" stroke-width="1.4" opacity="0.9"/>
-    <rect x="-12" y="-5" width="24" height="8" rx="2" fill="none" stroke="#B8FF6B" stroke-width="1.4" opacity="0.7"/>
-    <rect x="-12" y="6" width="24" height="8" rx="2" fill="none" stroke="#B8FF6B" stroke-width="1.4" opacity="0.5"/>
-    <!-- Status dots -->
-    <circle cx="8" cy="-12" r="1.5" fill="#B8FF6B" opacity="0.9"/>
-    <circle cx="8" cy="-1" r="1.5" fill="#B8FF6B" opacity="0.7"/>
-    <circle cx="8" cy="10" r="1.5" fill="#B8FF6B" opacity="0.5"/>
+  <circle cx="40" cy="40" r="38" fill="url(#bbg)" stroke="#B8FF6B" stroke-width="1.5" stroke-opacity="0.3">
+    <animate attributeName="stroke-opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
+  </circle>
+  <g transform="translate(40,38)" filter="url(#ng3)">
+    <!-- Server stack with animated status -->
+    <rect x="-14" y="-20" width="28" height="10" rx="3" fill="none" stroke="#B8FF6B" stroke-width="1.8" opacity="0.9"/>
+    <rect x="-14" y="-6" width="28" height="10" rx="3" fill="none" stroke="#B8FF6B" stroke-width="1.8" opacity="0.7"/>
+    <rect x="-14" y="8" width="28" height="10" rx="3" fill="none" stroke="#B8FF6B" stroke-width="1.8" opacity="0.5"/>
+    <!-- Animated status lights -->
+    <circle cx="9" cy="-15" r="2" fill="#B8FF6B" opacity="0.9">
+      <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.5s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="9" cy="-1" r="2" fill="#B8FF6B" opacity="0.7">
+      <animate attributeName="opacity" values="0.7;0.2;0.7" dur="2s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="9" cy="13" r="2" fill="#B8FF6B" opacity="0.5">
+      <animate attributeName="opacity" values="0.5;0.1;0.5" dur="2.5s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Data flow lines -->
+    <line x1="0" y1="-25" x2="0" y2="-20" stroke="#B8FF6B" stroke-width="1" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="1s" repeatCount="indefinite"/>
+    </line>
+    <line x1="0" y1="18" x2="0" y2="23" stroke="#B8FF6B" stroke-width="1" opacity="0.4">
+      <animate attributeName="opacity" values="0.4;0.8;0.4" dur="1.2s" repeatCount="indefinite"/>
+    </line>
   </g>
 </svg>
