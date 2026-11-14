@@ -1,24 +1,27 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 30" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 12" width="100%" height="12">
   <defs>
-    <filter id="dg" x="-5%" y="-20%" width="110%" height="140%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="divGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#030303" stop-opacity="1"/>
+      <stop offset="15%" stop-color="#DC143C" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#FF1744" stop-opacity="0.7"/>
+      <stop offset="85%" stop-color="#DC143C" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#030303" stop-opacity="1"/>
+    </linearGradient>
+    <linearGradient id="glowGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#030303" stop-opacity="1"/>
+      <stop offset="20%" stop-color="#650014" stop-opacity="0.3"/>
+      <stop offset="50%" stop-color="#9B4654" stop-opacity="0.2"/>
+      <stop offset="80%" stop-color="#650014" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#030303" stop-opacity="1"/>
+    </linearGradient>
   </defs>
-  <rect width="900" height="30" fill="#050303"/>
-  <line x1="50" y1="15" x2="850" y2="15" stroke="#391012" stroke-width="0.5" opacity="0.5">
-    <animate attributeName="opacity" values="0.3;0.6;0.3" dur="3s" repeatCount="indefinite"/>
-  </line>
-  <circle cx="450" cy="15" r="2" fill="#FF2020" filter="url(#dg)">
-    <animate attributeName="r" values="1.5;3;1.5" dur="2s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <text x="100" y="18" font-family="monospace" font-size="8" fill="#591515" opacity="0.3">0x4E5F</text>
-  <text x="280" y="18" font-family="monospace" font-size="8" fill="#391012" opacity="0.25">━━━━━━━━</text>
-  <text x="560" y="18" font-family="monospace" font-size="8" fill="#391012" opacity="0.25">━━━━━━━━</text>
-  <text x="760" y="18" font-family="monospace" font-size="8" fill="#591515" opacity="0.3">0xA3B7</text>
-  <circle cy="15" r="1.5" fill="#FF3333" opacity="0.5">
-    <animate attributeName="cx" values="50;850;50" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0;0.6;0.6;0" dur="8s" repeatCount="indefinite"/>
-  </circle>
+  <rect width="1200" height="12" fill="#030303"/>
+  <rect y="4" width="1200" height="4" fill="url(#glowGrad)" opacity="0.5"/>
+  <line x1="0" y1="6" x2="1200" y2="6" stroke="url(#divGrad)" stroke-width="1"/>
+  <line x1="0" y1="5" x2="1200" y2="5" stroke="url(#divGrad)" stroke-width="0.5" opacity="0.3"/>
+  <line x1="0" y1="7" x2="1200" y2="7" stroke="url(#divGrad)" stroke-width="0.5" opacity="0.3"/>
+  <!-- Small accent marks -->
+  <rect x="580" y="3" width="40" height="6" rx="1" fill="#DC143C" opacity="0.15"/>
+  <rect x="590" y="4.5" width="20" height="3" rx="0.5" fill="#FF1744" opacity="0.3"/>
 </svg>
+

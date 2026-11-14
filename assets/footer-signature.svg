@@ -1,30 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 100" width="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 70" width="100%" height="70">
+  <rect width="1200" height="70" fill="#030303"/>
+  
+  <!-- Gradient line -->
   <defs>
-    <filter id="fg2" x="-10%" y="-20%" width="120%" height="140%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="1.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="frg2" x="-5%" y="-10%" width="110%" height="120%">
-      <feGaussianBlur in="SourceGraphic" stdDeviation="0.8" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
+    <linearGradient id="footGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#030303"/>
+      <stop offset="30%" stop-color="#DC143C" stop-opacity="0.4"/>
+      <stop offset="50%" stop-color="#FF1744" stop-opacity="0.6"/>
+      <stop offset="70%" stop-color="#DC143C" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#030303"/>
+    </linearGradient>
   </defs>
-  <rect width="900" height="100" fill="#050303"/>
-  <text x="50" y="15" font-family="monospace" font-size="8" fill="#391012" opacity="0.3">╔══════════════════════════════════════════════════════════════════════════════════════════════════════════╗</text>
-  <g filter="url(#fg2)">
-    <text x="450" y="45" text-anchor="middle" font-family="monospace" font-size="13" fill="#A85C5C" opacity="0.8">// Build systems that keep working when the stakes are highest</text>
-  </g>
-  <text x="450" y="65" text-anchor="middle" font-family="monospace" font-size="9" fill="#591515" opacity="0.3">
-    [TIMESTAMP: 0x674D4159 | SESSION: 0xFFAA22 | PID: 7777]
-    <animate attributeName="opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
+  
+  <line x1="0" y1="10" x2="1200" y2="10" stroke="url(#footGrad)" stroke-width="1"/>
+  
+  <!-- Signature text -->
+  <text x="600" y="35" fill="#9B4654" font-family="monospace" font-size="11" text-anchor="middle" letter-spacing="1">
+    Build systems that keep working when the stakes are highest.
   </text>
-  <g filter="url(#frg2)" opacity="0.15">
-    <g><text font-family="monospace" font-size="10" fill="#FF2020"><tspan x="80" dy="12">A</tspan><tspan x="80" dy="12">3</tspan><tspan x="80" dy="12">F</tspan><animateTransform attributeName="transform" type="translate" values="0,-10;0,40" dur="3s" repeatCount="indefinite"/></text></g>
-    <g><text font-family="monospace" font-size="10" fill="#FF2020"><tspan x="200" dy="12">1</tspan><tspan x="200" dy="12">0</tspan><tspan x="200" dy="12">B</tspan><animateTransform attributeName="transform" type="translate" values="0,-5;0,40" dur="4s" repeatCount="indefinite"/></text></g>
-    <g><text font-family="monospace" font-size="10" fill="#FF2020"><tspan x="350" dy="12">C</tspan><tspan x="350" dy="12">7</tspan><tspan x="350" dy="12">D</tspan><animateTransform attributeName="transform" type="translate" values="0,-15;0,40" dur="2.5s" repeatCount="indefinite"/></text></g>
-    <g><text font-family="monospace" font-size="10" fill="#FF2020"><tspan x="500" dy="12">9</tspan><tspan x="500" dy="12">E</tspan><tspan x="500" dy="12">2</tspan><animateTransform attributeName="transform" type="translate" values="0,-8;0,40" dur="3.5s" repeatCount="indefinite"/></text></g>
-    <g><text font-family="monospace" font-size="10" fill="#FF2020"><tspan x="650" dy="12">F</tspan><tspan x="650" dy="12">0</tspan><tspan x="650" dy="12">A</tspan><animateTransform attributeName="transform" type="translate" values="0,-12;0,40" dur="2.8s" repeatCount="indefinite"/></text></g>
-    <g><text font-family="monospace" font-size="10" fill="#FF2020"><tspan x="780" dy="12">4</tspan><tspan x="780" dy="12">8</tspan><tspan x="780" dy="12">5</tspan><animateTransform attributeName="transform" type="translate" values="0,-3;0,40" dur="3.2s" repeatCount="indefinite"/></text></g>
-  </g>
-  <text x="50" y="95" font-family="monospace" font-size="8" fill="#391012" opacity="0.3">╚══════════════════════════════════════════════════════════════════════════════════════════════════════════╝</text>
+  
+  <!-- Bottom accent -->
+  <text x="600" y="52" fill="#650014" font-family="monospace" font-size="8" text-anchor="middle" letter-spacing="3" opacity="0.6">
+    ◆ MAYUR KIRAN KUMAR S ◆ 2026 ◆
+  </text>
+  
+  <!-- Corner marks -->
+  <polyline points="20,15 20,60 30,60" stroke="#650014" stroke-width="0.5" fill="none" opacity="0.4"/>
+  <polyline points="1180,15 1180,60 1170,60" stroke="#650014" stroke-width="0.5" fill="none" opacity="0.4"/>
 </svg>
