@@ -7,13 +7,22 @@
   ╚══════════════════════════════════════════════════════════════╝
 -->
 
-<!-- 0x48455244 — HERO SECTION -->
+<!-- 0x48455244 — HERO SECTION: SPLIT LAYOUT -->
 
-<img width="100%" src="./assets/hero-banner.svg" alt="MAYUR — Cybersecurity Engineer | Software Developer | AI Enthusiast" />
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="50%" valign="top">
+  <img width="100%" src="./assets/hero/left-identity.svg" alt="MAYUR KIRAN KUMAR S — Systems Engineer" />
+</td>
+<td width="50%" valign="top">
+  <img width="100%" src="./assets/hero/crt-terminal.gif" alt="CRT Terminal Visualization" />
+</td>
+</tr>
+</table>
 
 <div align="center">
   <br />
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=20&duration=2000&pause=800&color=00FF41&center=true&vCenter=true&repeat=true&width=650&height=30&lines=%5B+SYSTEM+INITIALIZING...+%5D;%5B+LOADING+USER+PROFILE...+%5D;%5B+ESTABLISHING+SECURE+CONNECTION...+%5D;%5B+ACCESS+GRANTED+%5D;%5B+WELCOME+TO+MAYUR'S+TERMINAL+%5D" alt="Terminal boot sequence" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=18&duration=2000&pause=800&color=FF2020&center=true&vCenter=true&repeat=true&width=620&height=28&lines=%5B+BIOS+INITIALIZATION...+%5D;%5B+LOADING+USER+PROFILE.........OK+%5D;%5B+ENCRYPTED+CONNECTION.......ESTABLISHED+%5D;%5B+SECURITY+MODULE.............ONLINE+%5D;%5B+IDENTITY+VERIFIED...........MAYUR+%5D;%5B+WELCOME+TO+THE+TERMINAL+%5D" alt="Terminal boot sequence" />
   <br /><br />
 </div>
 
@@ -92,13 +101,13 @@ production, and useful when conditions are imperfect.
 [root@mayur ~/arsenal/languages]$ ls -la
 ```
 
-<img src="https://img.shields.io/badge/Python-030605?style=flat-square&logo=python&logoColor=00FF41" alt="Python" />&nbsp;
-<img src="https://img.shields.io/badge/C-030605?style=flat-square&logo=c&logoColor=00FF41" alt="C" />&nbsp;
-<img src="https://img.shields.io/badge/SQL-030605?style=flat-square&logo=postgresql&logoColor=00FF41" alt="SQL" />&nbsp;
-<img src="https://img.shields.io/badge/JavaScript-030605?style=flat-square&logo=javascript&logoColor=00FF41" alt="JavaScript" />&nbsp;
-<img src="https://img.shields.io/badge/TypeScript-030605?style=flat-square&logo=typescript&logoColor=00FF41" alt="TypeScript" />&nbsp;
-<img src="https://img.shields.io/badge/Kotlin-030605?style=flat-square&logo=kotlin&logoColor=00FF41" alt="Kotlin" />&nbsp;
-<img src="https://img.shields.io/badge/Solidity-030605?style=flat-square&logo=solidity&logoColor=00FF41" alt="Solidity" />
+<img src="https://img.shields.io/badge/Python-050303?style=flat-square&logo=python&logoColor=FF2020" alt="Python" />&nbsp;
+<img src="https://img.shields.io/badge/C-050303?style=flat-square&logo=c&logoColor=FF2020" alt="C" />&nbsp;
+<img src="https://img.shields.io/badge/SQL-050303?style=flat-square&logo=postgresql&logoColor=FF2020" alt="SQL" />&nbsp;
+<img src="https://img.shields.io/badge/JavaScript-050303?style=flat-square&logo=javascript&logoColor=FF2020" alt="JavaScript" />&nbsp;
+<img src="https://img.shields.io/badge/TypeScript-050303?style=flat-square&logo=typescript&logoColor=FF2020" alt="TypeScript" />&nbsp;
+<img src="https://img.shields.io/badge/Kotlin-050303?style=flat-square&logo=kotlin&logoColor=FF2020" alt="Kotlin" />&nbsp;
+<img src="https://img.shields.io/badge/Solidity-050303?style=flat-square&logo=solidity&logoColor=FF2020" alt="Solidity" />
 
 ---
 
@@ -106,13 +115,13 @@ production, and useful when conditions are imperfect.
 [root@mayur ~/arsenal/backend]$ systemctl status
 ```
 
-<img src="https://img.shields.io/badge/FastAPI-030605?style=flat-square&logo=fastapi&logoColor=00FFFF" alt="FastAPI" />&nbsp;
-<img src="https://img.shields.io/badge/REST_APIs-030605?style=flat-square&logoColor=00FFFF" alt="REST APIs" />&nbsp;
-<img src="https://img.shields.io/badge/WebSockets-030605?style=flat-square&logoColor=00FFFF" alt="WebSockets" />&nbsp;
-<img src="https://img.shields.io/badge/JWT_Auth-030605?style=flat-square&logoColor=00FFFF" alt="JWT Auth" />&nbsp;
-<img src="https://img.shields.io/badge/SQLAlchemy-030605?style=flat-square&logo=sqlalchemy&logoColor=00FFFF" alt="SQLAlchemy" />&nbsp;
-<img src="https://img.shields.io/badge/Supabase-030605?style=flat-square&logo=supabase&logoColor=00FFFF" alt="Supabase" />&nbsp;
-<img src="https://img.shields.io/badge/PostgreSQL-030605?style=flat-square&logo=postgresql&logoColor=00FFFF" alt="PostgreSQL" />
+<img src="https://img.shields.io/badge/FastAPI-050303?style=flat-square&logo=fastapi&logoColor=FF3333" alt="FastAPI" />&nbsp;
+<img src="https://img.shields.io/badge/REST_APIs-050303?style=flat-square&logoColor=FF3333" alt="REST APIs" />&nbsp;
+<img src="https://img.shields.io/badge/WebSockets-050303?style=flat-square&logoColor=FF3333" alt="WebSockets" />&nbsp;
+<img src="https://img.shields.io/badge/JWT_Auth-050303?style=flat-square&logoColor=FF3333" alt="JWT Auth" />&nbsp;
+<img src="https://img.shields.io/badge/SQLAlchemy-050303?style=flat-square&logo=sqlalchemy&logoColor=FF3333" alt="SQLAlchemy" />&nbsp;
+<img src="https://img.shields.io/badge/Supabase-050303?style=flat-square&logo=supabase&logoColor=FF3333" alt="Supabase" />&nbsp;
+<img src="https://img.shields.io/badge/PostgreSQL-050303?style=flat-square&logo=postgresql&logoColor=FF3333" alt="PostgreSQL" />
 
 ---
 
@@ -120,12 +129,12 @@ production, and useful when conditions are imperfect.
 [root@mayur ~/arsenal/cybersecurity]$ nmap --scan
 ```
 
-<img src="https://img.shields.io/badge/Kali_Linux-030605?style=flat-square&logo=kalilinux&logoColor=00FF41" alt="Kali Linux" />&nbsp;
-<img src="https://img.shields.io/badge/Nmap-030605?style=flat-square&logoColor=00FF41" alt="Nmap" />&nbsp;
-<img src="https://img.shields.io/badge/Wireshark-030605?style=flat-square&logo=wireshark&logoColor=00FF41" alt="Wireshark" />&nbsp;
-<img src="https://img.shields.io/badge/Metasploit-030605?style=flat-square&logoColor=00FF41" alt="Metasploit" />&nbsp;
-<img src="https://img.shields.io/badge/Burp_Suite-030605?style=flat-square&logoColor=00FF41" alt="Burp Suite" />&nbsp;
-<img src="https://img.shields.io/badge/SQLMap-030605?style=flat-square&logoColor=00FF41" alt="SQLMap" />
+<img src="https://img.shields.io/badge/Kali_Linux-050303?style=flat-square&logo=kalilinux&logoColor=FF2020" alt="Kali Linux" />&nbsp;
+<img src="https://img.shields.io/badge/Nmap-050303?style=flat-square&logoColor=FF2020" alt="Nmap" />&nbsp;
+<img src="https://img.shields.io/badge/Wireshark-050303?style=flat-square&logo=wireshark&logoColor=FF2020" alt="Wireshark" />&nbsp;
+<img src="https://img.shields.io/badge/Metasploit-050303?style=flat-square&logoColor=FF2020" alt="Metasploit" />&nbsp;
+<img src="https://img.shields.io/badge/Burp_Suite-050303?style=flat-square&logoColor=FF2020" alt="Burp Suite" />&nbsp;
+<img src="https://img.shields.io/badge/SQLMap-050303?style=flat-square&logoColor=FF2020" alt="SQLMap" />
 
 ---
 
@@ -133,13 +142,13 @@ production, and useful when conditions are imperfect.
 [root@mayur ~/arsenal/ai_ml]$ ollama list
 ```
 
-<img src="https://img.shields.io/badge/LangGraph-030605?style=flat-square&logoColor=00FFFF" alt="LangGraph" />&nbsp;
-<img src="https://img.shields.io/badge/RAG-030605?style=flat-square&logoColor=00FFFF" alt="RAG" />&nbsp;
-<img src="https://img.shields.io/badge/LLM_Inference-030605?style=flat-square&logoColor=00FFFF" alt="LLM Inference" />&nbsp;
-<img src="https://img.shields.io/badge/YOLO-030605?style=flat-square&logoColor=00FFFF" alt="YOLO" />&nbsp;
-<img src="https://img.shields.io/badge/XGBoost-030605?style=flat-square&logoColor=00FFFF" alt="XGBoost" />&nbsp;
-<img src="https://img.shields.io/badge/ChromaDB-030605?style=flat-square&logoColor=00FFFF" alt="ChromaDB" />&nbsp;
-<img src="https://img.shields.io/badge/Ollama-030605?style=flat-square&logoColor=00FFFF" alt="Ollama" />
+<img src="https://img.shields.io/badge/LangGraph-050303?style=flat-square&logoColor=FF7777" alt="LangGraph" />&nbsp;
+<img src="https://img.shields.io/badge/RAG-050303?style=flat-square&logoColor=FF7777" alt="RAG" />&nbsp;
+<img src="https://img.shields.io/badge/LLM_Inference-050303?style=flat-square&logoColor=FF7777" alt="LLM Inference" />&nbsp;
+<img src="https://img.shields.io/badge/YOLO-050303?style=flat-square&logoColor=FF7777" alt="YOLO" />&nbsp;
+<img src="https://img.shields.io/badge/XGBoost-050303?style=flat-square&logoColor=FF7777" alt="XGBoost" />&nbsp;
+<img src="https://img.shields.io/badge/ChromaDB-050303?style=flat-square&logoColor=FF7777" alt="ChromaDB" />&nbsp;
+<img src="https://img.shields.io/badge/Ollama-050303?style=flat-square&logoColor=FF7777" alt="Ollama" />
 
 ---
 
@@ -147,13 +156,13 @@ production, and useful when conditions are imperfect.
 [root@mayur ~/arsenal/devops]$ docker ps
 ```
 
-<img src="https://img.shields.io/badge/Git-030605?style=flat-square&logo=git&logoColor=00FF41" alt="Git" />&nbsp;
-<img src="https://img.shields.io/badge/GitHub-030605?style=flat-square&logo=github&logoColor=00FF41" alt="GitHub" />&nbsp;
-<img src="https://img.shields.io/badge/Linux-030605?style=flat-square&logo=linux&logoColor=00FF41" alt="Linux" />&nbsp;
-<img src="https://img.shields.io/badge/Docker-030605?style=flat-square&logo=docker&logoColor=00FF41" alt="Docker" />
+<img src="https://img.shields.io/badge/Git-050303?style=flat-square&logo=git&logoColor=FF2020" alt="Git" />&nbsp;
+<img src="https://img.shields.io/badge/GitHub-050303?style=flat-square&logo=github&logoColor=FF2020" alt="GitHub" />&nbsp;
+<img src="https://img.shields.io/badge/Linux-050303?style=flat-square&logo=linux&logoColor=FF2020" alt="Linux" />&nbsp;
+<img src="https://img.shields.io/badge/Docker-050303?style=flat-square&logo=docker&logoColor=FF2020" alt="Docker" />
 
 ```
-[OK] All modules loaded. Arsenal ready.
+[OK] All modules loaded. Arsenal operational.
 ```
 
 </td>
@@ -209,10 +218,10 @@ root@mayur:~$ ls -la /projects/classified/ --clearance=public
 
 <div align="center">
   <a href="https://github.com/MayurKk777/Automotive-Predictive-Maintenance-System">
-    <img src="https://img.shields.io/badge/ACCESS_REPO-030605?style=flat-square&logo=github&logoColor=00FF41" alt="Repository" />
+    <img src="https://img.shields.io/badge/ACCESS_REPO-050303?style=flat-square&logo=github&logoColor=FF2020" alt="Repository" />
   </a>&nbsp;
-  <img src="https://img.shields.io/badge/LANG-Python-030605?style=flat-square&logoColor=00FF41" alt="Python" />&nbsp;
-  <img src="https://img.shields.io/badge/TYPE-ORIGINAL-030605?style=flat-square&logoColor=00FFFF" alt="Original" />
+  <img src="https://img.shields.io/badge/LANG-Python-050303?style=flat-square&logoColor=FF2020" alt="Python" />&nbsp;
+  <img src="https://img.shields.io/badge/TYPE-ORIGINAL-050303?style=flat-square&logoColor=FF3333" alt="Original" />
 </div>
 
 </td>
@@ -248,10 +257,10 @@ root@mayur:~$ ls -la /projects/classified/ --clearance=public
 
 <div align="center">
   <a href="https://github.com/MayurKk777/Cipherguard">
-    <img src="https://img.shields.io/badge/ACCESS_REPO-030605?style=flat-square&logo=github&logoColor=00FF41" alt="Repository" />
+    <img src="https://img.shields.io/badge/ACCESS_REPO-050303?style=flat-square&logo=github&logoColor=FF2020" alt="Repository" />
   </a>&nbsp;
-  <img src="https://img.shields.io/badge/LANG-Python_|_JS-030605?style=flat-square&logoColor=00FF41" alt="Python JS" />&nbsp;
-  <img src="https://img.shields.io/badge/TYPE-CONTRIBUTED-030605?style=flat-square&logoColor=00FFFF" alt="Contributed" />
+  <img src="https://img.shields.io/badge/LANG-Python_|_JS-050303?style=flat-square&logoColor=FF2020" alt="Python JS" />&nbsp;
+  <img src="https://img.shields.io/badge/TYPE-CONTRIBUTED-050303?style=flat-square&logoColor=FF7777" alt="Contributed" />
 </div>
 
 </td>
@@ -287,10 +296,10 @@ root@mayur:~$ ls -la /projects/classified/ --clearance=public
 
 <div align="center">
   <a href="https://github.com/MayurKk777/Raksha-setu">
-    <img src="https://img.shields.io/badge/ACCESS_REPO-030605?style=flat-square&logo=github&logoColor=00FF41" alt="Repository" />
+    <img src="https://img.shields.io/badge/ACCESS_REPO-050303?style=flat-square&logo=github&logoColor=FF2020" alt="Repository" />
   </a>&nbsp;
-  <img src="https://img.shields.io/badge/LANG-Python_|_TS-030605?style=flat-square&logoColor=00FF41" alt="Python TS" />&nbsp;
-  <img src="https://img.shields.io/badge/TYPE-CONTRIBUTED-030605?style=flat-square&logoColor=00FFFF" alt="Contributed" />
+  <img src="https://img.shields.io/badge/LANG-Python_|_TS-050303?style=flat-square&logoColor=FF2020" alt="Python TS" />&nbsp;
+  <img src="https://img.shields.io/badge/TYPE-CONTRIBUTED-050303?style=flat-square&logoColor=FF7777" alt="Contributed" />
 </div>
 
 </td>
@@ -326,10 +335,10 @@ root@mayur:~$ ls -la /projects/classified/ --clearance=public
 
 <div align="center">
   <a href="https://github.com/MayurKk777/CarbonTrust-Blockchain">
-    <img src="https://img.shields.io/badge/ACCESS_REPO-030605?style=flat-square&logo=github&logoColor=00FF41" alt="Repository" />
+    <img src="https://img.shields.io/badge/ACCESS_REPO-050303?style=flat-square&logo=github&logoColor=FF2020" alt="Repository" />
   </a>&nbsp;
-  <img src="https://img.shields.io/badge/LANG-Kotlin_|_Python-030605?style=flat-square&logoColor=00FF41" alt="Kotlin Python" />&nbsp;
-  <img src="https://img.shields.io/badge/TYPE-CONTRIBUTED-030605?style=flat-square&logoColor=00FFFF" alt="Contributed" />
+  <img src="https://img.shields.io/badge/LANG-Kotlin_|_Python-050303?style=flat-square&logoColor=FF2020" alt="Kotlin Python" />&nbsp;
+  <img src="https://img.shields.io/badge/TYPE-CONTRIBUTED-050303?style=flat-square&logoColor=FF7777" alt="Contributed" />
 </div>
 
 </td>
@@ -398,7 +407,7 @@ root@mayur:~$ cat /var/log/achievements.log
 
 <!-- GitHub Trophies -->
 <div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=MayurKk777&theme=matrix&no-bg=true&no-frame=true&column=7&margin-w=6" alt="GitHub Trophies" />
+  <img src="https://github-profile-trophy.vercel.app/?username=MayurKk777&theme=radical&no-bg=true&no-frame=true&column=7&margin-w=6" alt="GitHub Trophies" />
 </div>
 
 <br />
@@ -406,10 +415,10 @@ root@mayur:~$ cat /var/log/achievements.log
 <!-- Stats + Languages -->
 <div align="center">
   <a href="https://github.com/MayurKk777?tab=repositories">
-    <img height="180" src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&bg_color=030605&title_color=00FF41&icon_color=00FF41&text_color=C8FFD0&ring_color=00FF41" alt="GitHub statistics" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=MayurKk777&show_icons=true&hide_title=true&rank_icon=github&include_all_commits=true&count_private=true&hide_border=true&bg_color=050303&title_color=FF2020&icon_color=FF2020&text_color=FF7777&ring_color=FF2020" alt="GitHub statistics" />
   </a>&nbsp;&nbsp;
   <a href="https://github.com/MayurKk777?tab=repositories">
-    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayurKk777&layout=compact&hide_border=true&bg_color=030605&title_color=00FF41&text_color=C8FFD0&langs_count=8" alt="Top languages" />
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=MayurKk777&layout=compact&hide_border=true&bg_color=050303&title_color=FF2020&text_color=FF7777&langs_count=8" alt="Top languages" />
   </a>
 </div>
 
@@ -417,14 +426,14 @@ root@mayur:~$ cat /var/log/achievements.log
 
 <!-- Streak -->
 <div align="center">
-  <img src="https://streak-stats.demolab.com?user=MayurKk777&hide_border=true&background=030605&ring=00FF41&fire=00FFFF&currStreakLabel=C8FFD0&sideLabels=C8FFD0&dates=008F11&sideNums=00FF41&currStreakNum=00FF41" alt="Contribution streak" />
+  <img src="https://streak-stats.demolab.com?user=MayurKk777&hide_border=true&background=050303&ring=FF2020&fire=FF3333&currStreakLabel=FF7777&sideLabels=FF7777&dates=591515&sideNums=FF2020&currStreakNum=FF2020" alt="Contribution streak" />
 </div>
 
 <br />
 
 <!-- Activity Graph -->
 <div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayurKk777&bg_color=030605&color=C8FFD0&line=00FF41&point=00FFFF&area=true&area_color=008F11&hide_border=true&custom_title=CONTRIBUTION%20TIMELINE%20%5B0x434F4E54%5D" alt="Contribution graph" />
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=MayurKk777&bg_color=050303&color=FF7777&line=FF2020&point=FF3333&area=true&area_color=8B0000&hide_border=true&custom_title=CONTRIBUTION%20TIMELINE%20%5B0x434F4E54%5D" alt="Contribution graph" />
 </div>
 
 <br />
@@ -486,15 +495,15 @@ Scanning available channels...
 
 <div align="center">
   <a href="https://github.com/MayurKk777">
-    <img src="https://img.shields.io/badge/GITHUB-030605?style=flat-square&logo=github&logoColor=00FF41" alt="GitHub" />
+    <img src="https://img.shields.io/badge/GITHUB-050303?style=flat-square&logo=github&logoColor=FF2020" alt="GitHub" />
   </a>&nbsp;&nbsp;
   <a href="https://www.linkedin.com/in/mayur-kiran-kumar-s-730858389/">
-    <img src="https://img.shields.io/badge/LINKEDIN-030605?style=flat-square&logo=linkedin&logoColor=00FF41" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/LINKEDIN-050303?style=flat-square&logo=linkedin&logoColor=FF2020" alt="LinkedIn" />
   </a>&nbsp;&nbsp;
   <a href="mailto:mayurkirankumar@gmail.com">
-    <img src="https://img.shields.io/badge/EMAIL-030605?style=flat-square&logo=gmail&logoColor=00FF41" alt="Email" />
+    <img src="https://img.shields.io/badge/EMAIL-050303?style=flat-square&logo=gmail&logoColor=FF2020" alt="Email" />
   </a>&nbsp;&nbsp;
-  <img src="https://komarev.com/ghpvc/?username=MayurKk777&style=flat-square&color=030605&label=PROFILE+VIEWS" alt="Profile views" />
+  <img src="https://komarev.com/ghpvc/?username=MayurKk777&style=flat-square&color=050303&label=PROFILE+VIEWS" alt="Profile views" />
 </div>
 
 <br /><br />
@@ -509,11 +518,11 @@ Scanning available channels...
 
 <div align="center">
   <br />
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=4000&pause=2000&color=008F11&center=true&vCenter=true&repeat=true&width=500&height=20&lines=%5B+SESSION+TERMINATED+%E2%80%94+RECONNECT+ANYTIME+%5D;%5B+0x454E44+%E2%80%94+EOF+%5D" alt="Session end" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=12&duration=4000&pause=2000&color=591515&center=true&vCenter=true&repeat=true&width=500&height=20&lines=%5B+SESSION+TERMINATED+%E2%80%94+RECONNECT+ANYTIME+%5D;%5B+0x454E44+%E2%80%94+EOF+%5D" alt="Session end" />
   <br /><br />
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:030605,50:0a1a0a,100:030605&height=120&section=footer" width="100%" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050303,50:1a0808,100:050303&height=120&section=footer" width="100%" />
 
 <!--
   ╔══════════════════════════════════════════════════════════════╗
