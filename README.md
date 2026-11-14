@@ -1,24 +1,23 @@
 <!--
   ╔══════════════════════════════════════════════════════════════╗
-  ║  MAYUR KIRAN KUMAR S — CLASSIFIED TERMINAL                  ║
-  ║  Cybersecurity · Backend Engineering · Applied AI            ║
+  ║  MAYUR KIRAN KUMAR S — CYBERPUNK CITY TERMINAL              ║
+  ║  Cybersecurity · Software Engineering · Applied AI          ║
   ║  github.com/MayurKk777                                      ║
   ║  [ACCESS LEVEL: PUBLIC] [ENCRYPTION: AES-256-GCM]           ║
   ╚══════════════════════════════════════════════════════════════╝
 -->
 
-<!-- 0x48455244 — HERO SECTION: SPLIT LAYOUT -->
+<!-- 0x48455244 — IMMERSIVE CYBERPUNK CITY HERO -->
 
-<table width="100%" cellspacing="0" cellpadding="0">
-<tr>
-<td width="50%" valign="top">
-  <img width="100%" src="./assets/hero/left-identity.svg" alt="MAYUR KIRAN KUMAR S — Systems Engineer" />
-</td>
-<td width="50%" valign="top">
-  <img width="100%" src="./assets/hero/crt-terminal.gif" alt="CRT Terminal Visualization" />
-</td>
-</tr>
-</table>
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/hero/cyberpunk-city.gif" />
+  <source media="(prefers-color-scheme: light)" srcset="./assets/hero/cyberpunk-city.gif" />
+  <img width="100%" src="./assets/hero/cyberpunk-city.gif" alt="MAYUR KIRAN KUMAR S — Systems Engineer — Cyberpunk City" />
+</picture>
+
+</div>
 
 <div align="center">
   <br />
@@ -531,3 +530,4 @@ Scanning available channels...
   ║  0x4D415955524B4B373737                                      ║
   ╚══════════════════════════════════════════════════════════════╝
 -->
+
