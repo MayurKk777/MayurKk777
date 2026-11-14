@@ -1,256 +1,86 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 420" role="img">
-  <title>Mayur Kiran Kumar S</title>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 900 400" width="100%">
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#080B12"/>
-      <stop offset="40%" stop-color="#0C1220"/>
-      <stop offset="100%" stop-color="#080B12"/>
-    </linearGradient>
-    <linearGradient id="cyan-grad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#00E5FF"/>
-      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
-    </linearGradient>
-    <linearGradient id="violet-grad" x1="0" x2="1">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0"/>
-      <stop offset="50%" stop-color="#8B5CF6"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
-    </linearGradient>
-    <radialGradient id="glow1" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#00E5FF" stop-opacity="0.25"/>
-      <stop offset="100%" stop-color="#00E5FF" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow2" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#8B5CF6" stop-opacity="0.2"/>
-      <stop offset="100%" stop-color="#8B5CF6" stop-opacity="0"/>
-    </radialGradient>
-    <radialGradient id="glow3" cx="0.5" cy="0.5" r="0.5">
-      <stop offset="0%" stop-color="#B8FF6B" stop-opacity="0.12"/>
-      <stop offset="100%" stop-color="#B8FF6B" stop-opacity="0"/>
-    </radialGradient>
-    <filter id="neon">
-      <feGaussianBlur stdDeviation="3" result="b"/>
+    <filter id="pulseGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur in="SourceGraphic" result="blur">
+        <animate attributeName="stdDeviation" values="2;6;2" dur="3s" repeatCount="indefinite"/>
+      </feGaussianBlur>
+      <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+    <filter id="rainGlow" x="-10%" y="-10%" width="120%" height="120%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="1" result="b"/>
       <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
     </filter>
-    <filter id="neon-strong">
-      <feGaussianBlur stdDeviation="6" result="b"/>
-      <feComposite in="b" in2="b" operator="arithmetic" k1="0" k2="1.5" k3="1.5" k4="0" result="bright"/>
-      <feMerge><feMergeNode in="bright"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <filter id="soft">
-      <feGaussianBlur stdDeviation="1.5" result="b"/>
-      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
-    </filter>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M40 0V40H0" fill="none" stroke="#00E5FF" stroke-opacity="0.04" stroke-width="0.5"/>
-    </pattern>
-    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse">
-      <circle cx="10" cy="10" r="0.5" fill="#8B5CF6" opacity="0.15"/>
+    <radialGradient id="vig" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#030605" stop-opacity="0"/>
+      <stop offset="85%" stop-color="#030605" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#030605" stop-opacity="0.85"/>
+    </radialGradient>
+    <pattern id="scan" width="4" height="4" patternUnits="userSpaceOnUse">
+      <rect width="4" height="2" fill="transparent"/>
+      <rect y="2" width="4" height="2" fill="#000" opacity="0.12"/>
     </pattern>
   </defs>
 
-  <!-- Background -->
-  <rect width="1280" height="420" rx="12" fill="url(#bg)"/>
-  <rect width="1280" height="420" rx="12" fill="url(#grid)"/>
-  <rect width="1280" height="420" rx="12" fill="url(#dots)"/>
+  <!-- BG -->
+  <rect width="900" height="400" fill="#030605"/>
 
-  <!-- Animated ambient glows -->
-  <ellipse cx="950" cy="200" rx="350" ry="250" fill="url(#glow1)">
-    <animate attributeName="rx" values="350;400;350" dur="8s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.6;1" dur="8s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="300" cy="280" rx="280" ry="200" fill="url(#glow2)">
-    <animate attributeName="rx" values="280;330;280" dur="10s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="1;0.5;1" dur="10s" repeatCount="indefinite"/>
-  </ellipse>
-  <ellipse cx="640" cy="100" rx="200" ry="150" fill="url(#glow3)">
-    <animate attributeName="ry" values="150;180;150" dur="12s" repeatCount="indefinite"/>
-    <animate attributeName="opacity" values="0.6;0.3;0.6" dur="12s" repeatCount="indefinite"/>
-  </ellipse>
+  <!-- Terminal frame -->
+  <rect x="8" y="8" width="884" height="384" rx="8" fill="none" stroke="#008F11" stroke-width="1.5" opacity="0.6"/>
+  <rect x="8" y="8" width="884" height="30" rx="8" fill="#0a0f0a"/>
+  <rect x="8" y="30" width="884" height="10" fill="#0a0f0a"/>
+  <circle cx="28" cy="23" r="5" fill="#FF5F56"/>
+  <circle cx="48" cy="23" r="5" fill="#FFBD2E"/>
+  <circle cx="68" cy="23" r="5" fill="#27C93F"/>
+  <text x="450" y="27" text-anchor="middle" font-family="monospace" font-size="11" fill="#008F11" opacity="0.7">root@mayur:~ — secure_terminal — 900x400</text>
 
-  <!-- Animated neural network - large -->
-  <g filter="url(#neon)">
-    <!-- Connections with animated dash -->
-    <line x1="820" y1="60" x2="920" y2="130" stroke="#00E5FF" stroke-width="0.8" stroke-opacity="0.4">
-      <animate attributeName="stroke-opacity" values="0.4;0.8;0.4" dur="3s" repeatCount="indefinite"/>
-    </line>
-    <line x1="920" y1="130" x2="1040" y2="80" stroke="#8B5CF6" stroke-width="0.8" stroke-opacity="0.3">
-      <animate attributeName="stroke-opacity" values="0.3;0.7;0.3" dur="4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="920" y1="130" x2="1060" y2="200" stroke="#00E5FF" stroke-width="0.8" stroke-opacity="0.3">
-      <animate attributeName="stroke-opacity" values="0.3;0.6;0.3" dur="3.5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1040" y1="80" x2="1160" y2="130" stroke="#8B5CF6" stroke-width="0.7" stroke-opacity="0.3">
-      <animate attributeName="stroke-opacity" values="0.3;0.6;0.3" dur="5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1060" y1="200" x2="1180" y2="160" stroke="#00E5FF" stroke-width="0.7" stroke-opacity="0.25">
-      <animate attributeName="stroke-opacity" values="0.25;0.55;0.25" dur="4.5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1060" y1="200" x2="1100" y2="300" stroke="#8B5CF6" stroke-width="0.8" stroke-opacity="0.3">
-      <animate attributeName="stroke-opacity" values="0.3;0.6;0.3" dur="3.8s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1180" y1="160" x2="1230" y2="230" stroke="#00E5FF" stroke-width="0.6" stroke-opacity="0.2">
-      <animate attributeName="stroke-opacity" values="0.2;0.5;0.2" dur="4.2s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1160" y1="130" x2="1180" y2="160" stroke="#B8FF6B" stroke-width="0.6" stroke-opacity="0.2">
-      <animate attributeName="stroke-opacity" values="0.2;0.45;0.2" dur="5.5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1100" y1="300" x2="1200" y2="330" stroke="#00E5FF" stroke-width="0.6" stroke-opacity="0.2">
-      <animate attributeName="stroke-opacity" values="0.2;0.4;0.2" dur="4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1230" y1="230" x2="1200" y2="330" stroke="#8B5CF6" stroke-width="0.5" stroke-opacity="0.15">
-      <animate attributeName="stroke-opacity" values="0.15;0.35;0.15" dur="6s" repeatCount="indefinite"/>
-    </line>
-    <line x1="820" y1="60" x2="870" y2="30" stroke="#B8FF6B" stroke-width="0.5" stroke-opacity="0.15">
-      <animate attributeName="stroke-opacity" values="0.15;0.3;0.15" dur="5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="1040" y1="80" x2="1080" y2="35" stroke="#00E5FF" stroke-width="0.5" stroke-opacity="0.15"/>
-    <line x1="1100" y1="300" x2="1020" y2="360" stroke="#8B5CF6" stroke-width="0.5" stroke-opacity="0.1"/>
-    <line x1="750" y1="180" x2="820" y2="60" stroke="#00E5FF" stroke-width="0.6" stroke-opacity="0.15">
-      <animate attributeName="stroke-opacity" values="0.15;0.35;0.15" dur="4s" repeatCount="indefinite"/>
-    </line>
-    <line x1="750" y1="180" x2="920" y2="130" stroke="#8B5CF6" stroke-width="0.6" stroke-opacity="0.15">
-      <animate attributeName="stroke-opacity" values="0.15;0.3;0.15" dur="5s" repeatCount="indefinite"/>
-    </line>
-    <line x1="750" y1="180" x2="780" y2="310" stroke="#B8FF6B" stroke-width="0.5" stroke-opacity="0.1">
-      <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="6s" repeatCount="indefinite"/>
-    </line>
-    <line x1="780" y1="310" x2="1100" y2="300" stroke="#00E5FF" stroke-width="0.5" stroke-opacity="0.1">
-      <animate attributeName="stroke-opacity" values="0.1;0.2;0.1" dur="7s" repeatCount="indefinite"/>
-    </line>
-
-    <!-- Animated nodes - pulsing -->
-    <circle cx="820" cy="60" r="4" fill="#00E5FF" opacity="0.9">
-      <animate attributeName="r" values="4;6;4" dur="3s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="920" cy="130" r="5" fill="#8B5CF6" opacity="1">
-      <animate attributeName="r" values="5;7;5" dur="4s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="1;0.6;1" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1040" cy="80" r="3.5" fill="#00E5FF" opacity="0.8">
-      <animate attributeName="r" values="3.5;5.5;3.5" dur="3.5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="3.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1060" cy="200" r="4.5" fill="#B8FF6B" opacity="0.85">
-      <animate attributeName="r" values="4.5;6.5;4.5" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.85;0.45;0.85" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1160" cy="130" r="3" fill="#8B5CF6" opacity="0.7">
-      <animate attributeName="r" values="3;5;3" dur="4.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1180" cy="160" r="3.5" fill="#00E5FF" opacity="0.75">
-      <animate attributeName="r" values="3.5;5;3.5" dur="3.8s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1230" cy="230" r="3" fill="#8B5CF6" opacity="0.6">
-      <animate attributeName="r" values="3;4.5;3" dur="5.5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1100" cy="300" r="4" fill="#00E5FF" opacity="0.8">
-      <animate attributeName="r" values="4;6;4" dur="4.2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.8;0.4;0.8" dur="4.2s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1200" cy="330" r="2.5" fill="#8B5CF6" opacity="0.5">
-      <animate attributeName="r" values="2.5;4;2.5" dur="6s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="870" cy="30" r="2.5" fill="#B8FF6B" opacity="0.5">
-      <animate attributeName="r" values="2.5;4;2.5" dur="4s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="1080" cy="35" r="2" fill="#00E5FF" opacity="0.4"/>
-    <circle cx="1020" cy="360" r="2" fill="#8B5CF6" opacity="0.3"/>
-    <circle cx="750" cy="180" r="4" fill="#00E5FF" opacity="0.7">
-      <animate attributeName="r" values="4;6;4" dur="5s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.7;0.35;0.7" dur="5s" repeatCount="indefinite"/>
-    </circle>
-    <circle cx="780" cy="310" r="3" fill="#B8FF6B" opacity="0.5">
-      <animate attributeName="r" values="3;5;3" dur="6s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Matrix Rain -->
+  <g filter="url(#rainGlow)" opacity="0.3">
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.7"><tspan x="30" dy="18">ア</tspan><tspan x="30" dy="18">9</tspan><tspan x="30" dy="18">カ</tspan><tspan x="30" dy="18">0</tspan><tspan x="30" dy="18">サ</tspan><tspan x="30" dy="18">1</tspan><tspan x="30" dy="18">7</tspan><tspan x="30" dy="18">ナ</tspan><tspan x="30" dy="18">3</tspan><tspan x="30" dy="18">ハ</tspan><tspan x="30" dy="18">F</tspan><tspan x="30" dy="18">4</tspan><tspan x="30" dy="18">マ</tspan><tspan x="30" dy="18">A</tspan><tspan x="30" dy="18">ヤ</tspan><tspan x="30" dy="18">2</tspan><animateTransform attributeName="transform" type="translate" values="0,-100;0,450" dur="4.2s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.5"><tspan x="65" dy="18">1</tspan><tspan x="65" dy="18">タ</tspan><tspan x="65" dy="18">B</tspan><tspan x="65" dy="18">0</tspan><tspan x="65" dy="18">ウ</tspan><tspan x="65" dy="18">E</tspan><tspan x="65" dy="18">キ</tspan><tspan x="65" dy="18">8</tspan><tspan x="65" dy="18">シ</tspan><tspan x="65" dy="18">3</tspan><tspan x="65" dy="18">ツ</tspan><tspan x="65" dy="18">C</tspan><tspan x="65" dy="18">ネ</tspan><tspan x="65" dy="18">5</tspan><animateTransform attributeName="transform" type="translate" values="0,-200;0,450" dur="5.8s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.6"><tspan x="100" dy="18">ミ</tspan><tspan x="100" dy="18">7</tspan><tspan x="100" dy="18">D</tspan><tspan x="100" dy="18">ル</tspan><tspan x="100" dy="18">0</tspan><tspan x="100" dy="18">ヲ</tspan><tspan x="100" dy="18">A</tspan><tspan x="100" dy="18">ン</tspan><tspan x="100" dy="18">6</tspan><tspan x="100" dy="18">イ</tspan><tspan x="100" dy="18">F</tspan><tspan x="100" dy="18">2</tspan><animateTransform attributeName="transform" type="translate" values="0,-150;0,450" dur="3.5s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.4"><tspan x="140" dy="18">0</tspan><tspan x="140" dy="18">1</tspan><tspan x="140" dy="18">ケ</tspan><tspan x="140" dy="18">セ</tspan><tspan x="140" dy="18">4</tspan><tspan x="140" dy="18">テ</tspan><tspan x="140" dy="18">B</tspan><tspan x="140" dy="18">ヘ</tspan><tspan x="140" dy="18">9</tspan><tspan x="140" dy="18">メ</tspan><tspan x="140" dy="18">C</tspan><tspan x="140" dy="18">レ</tspan><tspan x="140" dy="18">3</tspan><tspan x="140" dy="18">ヰ</tspan><animateTransform attributeName="transform" type="translate" values="0,-80;0,450" dur="6.1s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.55"><tspan x="175" dy="18">エ</tspan><tspan x="175" dy="18">5</tspan><tspan x="175" dy="18">コ</tspan><tspan x="175" dy="18">D</tspan><tspan x="175" dy="18">ソ</tspan><tspan x="175" dy="18">8</tspan><tspan x="175" dy="18">ト</tspan><tspan x="175" dy="18">1</tspan><tspan x="175" dy="18">ノ</tspan><tspan x="175" dy="18">A</tspan><tspan x="175" dy="18">ホ</tspan><tspan x="175" dy="18">6</tspan><animateTransform attributeName="transform" type="translate" values="0,-120;0,450" dur="4.8s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.45"><tspan x="210" dy="18">F</tspan><tspan x="210" dy="18">オ</tspan><tspan x="210" dy="18">3</tspan><tspan x="210" dy="18">ク</tspan><tspan x="210" dy="18">7</tspan><tspan x="210" dy="18">ス</tspan><tspan x="210" dy="18">E</tspan><tspan x="210" dy="18">チ</tspan><tspan x="210" dy="18">2</tspan><tspan x="210" dy="18">ニ</tspan><tspan x="210" dy="18">9</tspan><tspan x="210" dy="18">フ</tspan><animateTransform attributeName="transform" type="translate" values="0,-170;0,450" dur="5.3s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.5"><tspan x="250" dy="18">ラ</tspan><tspan x="250" dy="18">4</tspan><tspan x="250" dy="18">B</tspan><tspan x="250" dy="18">リ</tspan><tspan x="250" dy="18">1</tspan><tspan x="250" dy="18">ロ</tspan><tspan x="250" dy="18">6</tspan><tspan x="250" dy="18">ワ</tspan><tspan x="250" dy="18">C</tspan><tspan x="250" dy="18">ヱ</tspan><tspan x="250" dy="18">8</tspan><tspan x="250" dy="18">ヲ</tspan><animateTransform attributeName="transform" type="translate" values="0,-60;0,450" dur="3.9s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.5"><tspan x="660" dy="18">ヤ</tspan><tspan x="660" dy="18">2</tspan><tspan x="660" dy="18">A</tspan><tspan x="660" dy="18">ユ</tspan><tspan x="660" dy="18">7</tspan><tspan x="660" dy="18">E</tspan><tspan x="660" dy="18">ヨ</tspan><tspan x="660" dy="18">0</tspan><tspan x="660" dy="18">ラ</tspan><tspan x="660" dy="18">5</tspan><tspan x="660" dy="18">D</tspan><tspan x="660" dy="18">リ</tspan><tspan x="660" dy="18">3</tspan><animateTransform attributeName="transform" type="translate" values="0,-140;0,450" dur="4.5s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.4"><tspan x="695" dy="18">9</tspan><tspan x="695" dy="18">ル</tspan><tspan x="695" dy="18">C</tspan><tspan x="695" dy="18">レ</tspan><tspan x="695" dy="18">1</tspan><tspan x="695" dy="18">F</tspan><tspan x="695" dy="18">ロ</tspan><tspan x="695" dy="18">4</tspan><tspan x="695" dy="18">ワ</tspan><tspan x="695" dy="18">B</tspan><tspan x="695" dy="18">ヲ</tspan><tspan x="695" dy="18">6</tspan><tspan x="695" dy="18">ン</tspan><tspan x="695" dy="18">8</tspan><animateTransform attributeName="transform" type="translate" values="0,-90;0,450" dur="5.6s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.55"><tspan x="730" dy="18">ア</tspan><tspan x="730" dy="18">F</tspan><tspan x="730" dy="18">3</tspan><tspan x="730" dy="18">イ</tspan><tspan x="730" dy="18">D</tspan><tspan x="730" dy="18">ウ</tspan><tspan x="730" dy="18">7</tspan><tspan x="730" dy="18">エ</tspan><tspan x="730" dy="18">0</tspan><tspan x="730" dy="18">オ</tspan><tspan x="730" dy="18">B</tspan><tspan x="730" dy="18">カ</tspan><animateTransform attributeName="transform" type="translate" values="0,-180;0,450" dur="3.7s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.45"><tspan x="765" dy="18">キ</tspan><tspan x="765" dy="18">2</tspan><tspan x="765" dy="18">ク</tspan><tspan x="765" dy="18">E</tspan><tspan x="765" dy="18">ケ</tspan><tspan x="765" dy="18">5</tspan><tspan x="765" dy="18">コ</tspan><tspan x="765" dy="18">9</tspan><tspan x="765" dy="18">サ</tspan><tspan x="765" dy="18">A</tspan><tspan x="765" dy="18">シ</tspan><tspan x="765" dy="18">1</tspan><tspan x="765" dy="18">ス</tspan><animateTransform attributeName="transform" type="translate" values="0,-110;0,450" dur="6.3s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.5"><tspan x="800" dy="18">セ</tspan><tspan x="800" dy="18">8</tspan><tspan x="800" dy="18">ソ</tspan><tspan x="800" dy="18">C</tspan><tspan x="800" dy="18">タ</tspan><tspan x="800" dy="18">4</tspan><tspan x="800" dy="18">チ</tspan><tspan x="800" dy="18">F</tspan><tspan x="800" dy="18">ツ</tspan><tspan x="800" dy="18">0</tspan><tspan x="800" dy="18">テ</tspan><tspan x="800" dy="18">6</tspan><animateTransform attributeName="transform" type="translate" values="0,-50;0,450" dur="4.0s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.4"><tspan x="835" dy="18">ト</tspan><tspan x="835" dy="18">3</tspan><tspan x="835" dy="18">ナ</tspan><tspan x="835" dy="18">B</tspan><tspan x="835" dy="18">ニ</tspan><tspan x="835" dy="18">7</tspan><tspan x="835" dy="18">ヌ</tspan><tspan x="835" dy="18">D</tspan><tspan x="835" dy="18">ネ</tspan><tspan x="835" dy="18">1</tspan><tspan x="835" dy="18">ノ</tspan><tspan x="835" dy="18">E</tspan><tspan x="835" dy="18">ハ</tspan><tspan x="835" dy="18">5</tspan><animateTransform attributeName="transform" type="translate" values="0,-160;0,450" dur="5.1s" repeatCount="indefinite"/></text></g>
+    <g><text font-family="monospace" font-size="14" fill="#00FF41" opacity="0.35"><tspan x="865" dy="18">ヒ</tspan><tspan x="865" dy="18">9</tspan><tspan x="865" dy="18">フ</tspan><tspan x="865" dy="18">A</tspan><tspan x="865" dy="18">ヘ</tspan><tspan x="865" dy="18">2</tspan><tspan x="865" dy="18">ホ</tspan><tspan x="865" dy="18">C</tspan><tspan x="865" dy="18">マ</tspan><tspan x="865" dy="18">6</tspan><tspan x="865" dy="18">ミ</tspan><tspan x="865" dy="18">0</tspan><animateTransform attributeName="transform" type="translate" values="0,-70;0,450" dur="4.7s" repeatCount="indefinite"/></text></g>
   </g>
 
-  <!-- Animated rotating geometric element -->
-  <g transform="translate(1100, 200)" opacity="0.3">
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="60s" repeatCount="indefinite"/>
-      <circle cx="0" cy="0" r="70" fill="none" stroke="#00E5FF" stroke-width="0.6" stroke-dasharray="4 8"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="360" to="0" dur="45s" repeatCount="indefinite"/>
-      <circle cx="0" cy="0" r="50" fill="none" stroke="#8B5CF6" stroke-width="0.5" stroke-dasharray="3 6"/>
-    </g>
-    <g>
-      <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="30s" repeatCount="indefinite"/>
-      <circle cx="0" cy="0" r="30" fill="none" stroke="#B8FF6B" stroke-width="0.4" stroke-dasharray="2 5"/>
-    </g>
-    <line x1="-80" y1="0" x2="80" y2="0" stroke="#94A3B8" stroke-opacity="0.15" stroke-width="0.5"/>
-    <line x1="0" y1="-80" x2="0" y2="80" stroke="#94A3B8" stroke-opacity="0.15" stroke-width="0.5"/>
-    <circle cx="0" cy="0" r="4" fill="#00E5FF" opacity="0.9">
-      <animate attributeName="r" values="4;6;4" dur="2s" repeatCount="indefinite"/>
-      <animate attributeName="opacity" values="0.9;0.5;0.9" dur="2s" repeatCount="indefinite"/>
-    </circle>
+  <!-- Center overlay -->
+  <rect x="170" y="105" width="560" height="190" rx="4" fill="#030605" opacity="0.88"/>
+  <rect x="170" y="105" width="560" height="190" rx="4" fill="none" stroke="#008F11" stroke-width="0.5" opacity="0.5"/>
+
+  <!-- MAYUR text with pulsing glow -->
+  <g filter="url(#pulseGlow)">
+    <text x="450" y="185" text-anchor="middle" font-family="monospace" font-size="68" font-weight="bold" fill="#00FF41" letter-spacing="20">MAYUR</text>
   </g>
+  <!-- Cyan glitch layer -->
+  <text x="452" y="184" text-anchor="middle" font-family="monospace" font-size="68" font-weight="bold" fill="#00FFFF" letter-spacing="20" opacity="0">MAYUR<animate attributeName="opacity" values="0;0.25;0;0;0;0;0.15;0;0;0;0;0" dur="4s" repeatCount="indefinite"/></text>
+  <!-- Red glitch layer -->
+  <text x="448" y="186" text-anchor="middle" font-family="monospace" font-size="68" font-weight="bold" fill="#FF0040" letter-spacing="20" opacity="0">MAYUR<animate attributeName="opacity" values="0;0;0;0.12;0;0;0;0;0;0.18;0;0;0" dur="5.5s" repeatCount="indefinite"/></text>
 
-  <!-- Circuit traces - animated flow -->
-  <g stroke-width="1" fill="none">
-    <path d="M0 390 H100 L120 370 H200 L215 380 H320 L340 365 H420" stroke="#00E5FF" stroke-opacity="0.12">
-      <animate attributeName="stroke-opacity" values="0.12;0.3;0.12" dur="4s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1280 390 H1180 L1160 370 H1080 L1065 380 H960 L940 365 H860" stroke="#8B5CF6" stroke-opacity="0.1">
-      <animate attributeName="stroke-opacity" values="0.1;0.25;0.1" dur="5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M0 400 H60 L80 385 H140 L150 395 H220" stroke="#B8FF6B" stroke-opacity="0.08">
-      <animate attributeName="stroke-opacity" values="0.08;0.2;0.08" dur="6s" repeatCount="indefinite"/>
-    </path>
-    <!-- Top traces -->
-    <path d="M850 8 H950 L970 28 H1040 L1050 18 H1120" stroke="#8B5CF6" stroke-opacity="0.08" stroke-width="0.8">
-      <animate attributeName="stroke-opacity" values="0.08;0.18;0.08" dur="5s" repeatCount="indefinite"/>
-    </path>
-    <path d="M1140 8 H1200 L1210 22 H1260" stroke="#00E5FF" stroke-opacity="0.06" stroke-width="0.6"/>
-  </g>
+  <!-- Subtitle -->
+  <text x="450" y="218" text-anchor="middle" font-family="monospace" font-size="10.5" fill="#008F11" letter-spacing="3">CYBERSECURITY ENGINEER  |  SOFTWARE DEVELOPER  |  AI ENTHUSIAST</text>
 
-  <!-- Horizontal accent lines -->
-  <rect x="80" y="345" width="550" height="1.5" fill="url(#cyan-grad)" opacity="0.4">
-    <animate attributeName="opacity" values="0.4;0.7;0.4" dur="4s" repeatCount="indefinite"/>
-  </rect>
-  <rect x="80" y="352" width="300" height="0.8" fill="url(#violet-grad)" opacity="0.25">
-    <animate attributeName="opacity" values="0.25;0.45;0.25" dur="5s" repeatCount="indefinite"/>
-  </rect>
+  <!-- Cursor -->
+  <rect x="690" y="206" width="7" height="13" fill="#00FF41"><animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/></rect>
 
-  <!-- Status indicators -->
-  <g font-family="monospace" font-size="10" letter-spacing="2">
-    <circle cx="90" cy="395" r="3" fill="#B8FF6B" opacity="0.8">
-      <animate attributeName="opacity" values="0.8;0.3;0.8" dur="2s" repeatCount="indefinite"/>
-    </circle>
-    <text x="100" y="398" fill="#94A3B8" opacity="0.4">SYS:ACTIVE</text>
-    <circle cx="220" cy="395" r="3" fill="#00E5FF" opacity="0.6">
-      <animate attributeName="opacity" values="0.6;0.2;0.6" dur="2.5s" repeatCount="indefinite"/>
-    </circle>
-    <text x="230" y="398" fill="#94A3B8" opacity="0.4">SEC:ARMED</text>
-    <circle cx="350" cy="395" r="3" fill="#8B5CF6" opacity="0.7">
-      <animate attributeName="opacity" values="0.7;0.25;0.7" dur="3s" repeatCount="indefinite"/>
-    </circle>
-    <text x="360" y="398" fill="#94A3B8" opacity="0.4">AI:ONLINE</text>
-  </g>
+  <!-- Terminal prompt -->
+  <text x="195" y="262" font-family="monospace" font-size="10" fill="#008F11" opacity="0.5">root@mayur:~$ ./init_profile --mode=classified --access=granted</text>
+  <text x="195" y="278" font-family="monospace" font-size="9" fill="#4CAF50" opacity="0.25">0x4D415955 0x524B3737 0x37373700 0x53454355 0x52495459</text>
 
-  <!-- Typography -->
-  <g font-family="Arial, Helvetica, sans-serif">
-    <!-- Overline with animated opacity -->
-    <text x="80" y="100" fill="#00E5FF" font-size="11" font-weight="700" letter-spacing="8" opacity="0.6">
-      SYSTEMS ENGINEER  //  EST. 2026
-      <animate attributeName="opacity" values="0.6;0.9;0.6" dur="4s" repeatCount="indefinite"/>
-    </text>
+  <!-- Scanlines -->
+  <rect width="900" height="400" fill="url(#scan)" opacity="0.4"/>
+  <!-- Vignette -->
+  <rect width="900" height="400" fill="url(#vig)"/>
 
-    <!-- Name - large -->
-    <text x="78" y="170" fill="#FFFFFF" font-size="52" font-weight="900" letter-spacing="3" filter="url(#soft)">MAYUR KIRAN</text>
-    <text x="78" y="230" fill="#FFFFFF" font-size="52" font-weight="900" letter-spacing="3" filter="url(#soft)">KUMAR S</text>
-
-    <!-- Role bar -->
-    <text x="82" y="272" fill="#94A3B8" font-size="14" font-weight="600" letter-spacing="5">SOFTWARE ENGINEER</text>
-    <text x="290" y="272" fill="#00E5FF" font-size="14" letter-spacing="5" opacity="0.5">///</text>
-    <text x="330" y="272" fill="#8B5CF6" font-size="14" font-weight="600" letter-spacing="5">CYBERSECURITY</text>
-    <text x="530" y="272" fill="#00E5FF" font-size="14" letter-spacing="5" opacity="0.5">///</text>
-    <text x="570" y="272" fill="#00E5FF" font-size="14" font-weight="600" letter-spacing="5">APPLIED AI</text>
-
-    <!-- Location -->
-    <text x="82" y="308" fill="#94A3B8" font-size="12" letter-spacing="3" opacity="0.5">BENGALURU, INDIA</text>
-
-  </g>
+  <!-- Bottom info -->
+  <text x="22" y="382" font-family="monospace" font-size="8" fill="#008F11" opacity="0.4">[SYS:0x7F4A] SECURE SESSION</text>
+  <text x="740" y="382" font-family="monospace" font-size="8" fill="#008F11" opacity="0.4">ENCRYPTED :: AES-256</text>
+  <circle cx="872" cy="378" r="3" fill="#00FF41"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
 </svg>

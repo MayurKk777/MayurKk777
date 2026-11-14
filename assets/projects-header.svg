@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 60" width="100%">
+  <defs>
+    <filter id="pg" x="-10%" y="-20%" width="120%" height="140%">
+      <feGaussianBlur in="SourceGraphic" stdDeviation="2" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="900" height="60" fill="#030605"/>
+  <!-- DECRYPTING prefix -->
+  <text x="30" y="38" font-family="monospace" font-size="13" fill="#00FFFF" opacity="0.7">[DECRYPTING...]<animate attributeName="opacity" values="0.7;0.3;0.7" dur="1.5s" repeatCount="indefinite"/></text>
+  <g filter="url(#pg)">
+    <text x="540" y="38" font-family="monospace" font-size="22" font-weight="bold" fill="#00FF41" letter-spacing="6">CLASSIFIED PROJECTS</text>
+  </g>
+  <text x="540" y="38" font-family="monospace" font-size="22" font-weight="bold" fill="#FF0040" letter-spacing="6" opacity="0">CLASSIFIED PROJECTS<animate attributeName="opacity" values="0;0;0.1;0;0;0;0;0;0.12;0;0" dur="4.5s" repeatCount="indefinite"/></text>
+  <rect x="860" y="25" width="7" height="15" fill="#00FF41"><animate attributeName="opacity" values="1;1;0;0" dur="1s" repeatCount="indefinite"/></rect>
+  <text x="30" y="55" font-family="monospace" font-size="8" fill="#4CAF50" opacity="0.2">[0x50524F4A] CLEARANCE: PUBLIC — ACCESS GRANTED</text>
+</svg>
